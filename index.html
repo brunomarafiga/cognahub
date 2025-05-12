@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cognita Hub: Conecte-se ao conhecimento. Desafie sua mente.</title> <!-- Título Atualizado -->
+
+    <!-- Fontes -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Montserrat:wght@400;700;800&display=swap" rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- Favicon -->
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+</head>
+<body>
+    <div class="page-wrapper">
+        <!-- Cabeçalho -->
+        <header class="main-navigation" id="main-header">
+            <div class="container nav-container">
+                <a href="index.html" class="logo">
+                    <img src="https://sociaisaplicadas.ufpr.br/decigi/wp-content/uploads/sites/5/2022/09/cropped-ufpr_b-192x192.jpg" alt="Logo UFPR" class="logo-ufpr">
+                    Cognita Hub <!-- Nome da Plataforma Atualizado -->
+                </a>
+                <nav class="site-nav" aria-label="Navegação principal">
+                   
+                    <ul id="nav-menu">
+                        <li><a href="index.html" class="nav-link active">Início</a></li>
+                        <li><a href="#recursos-anchor" class="nav-link">Recursos</a></li>
+                        <li><a href="#quiz-selection-anchor" class="nav-link">Desafios</a></li> <!-- Nome do Menu Atualizado -->
+                        <li><a href="#about-creator-anchor" class="nav-link">Sobre</a></li>
+                        <li><a href="#contact-anchor" class="nav-link">Contato</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+
+        <!-- Hero Section -->
+        <section class="hero-section" id="hero">
+            <div class="container hero-content">
+                <h1 class="hero-title">Cognita Hub: Conecte-se ao conhecimento. Desafie sua mente.</h1> <!-- Tagline Principal Atualizada -->
+                <p class="hero-subtitle">Uma plataforma completa com questionários interativos e recursos de estudo selecionados para impulsionar sua jornada de aprendizado.</p>
+                <a href="#quiz-selection-anchor" class="cta-button hero-cta">Iniciar Descoberta</a>
+            </div>
+        </section>
+
+        <main class="site-main">
+            <!-- Seção de Recursos -->
+            <section id="recursos-anchor" class="content-section recursos-section">
+                <div class="container">
+                    <h2 class="section-title">Fontes de Conhecimento Cognita</h2> <!-- Título da Seção Atualizado -->
+                    <p class="section-intro">Alimente sua curiosidade. Explore as Fontes de Conhecimento Cognita – uma seleção criteriosa de livros, podcasts, vídeos e artigos para aprofundar seus estudos e catalisar novas reflexões.</p> <!-- Chamada Atualizada -->
+                    <div class="categorias-grid"> 
+                        <!-- Categoria: Livros -->
+                        <div class="categoria" data-categoria="Livros">
+                            <h3 id="livros-title">Biblioteca Cognita</h3> <!-- Nome da Subcategoria Atualizado -->
+                            <div class="lista-recursos">
+                                <ul></ul>
+                            </div>
+                        </div>
+                        <!-- Categoria: Podcasts -->
+                        <div class="categoria" data-categoria="Podcasts">
+                            <h3 id="podcasts-title">Audioteca Cognita</h3> <!-- Nome da Subcategoria Atualizado -->
+                            <div class="lista-recursos">
+                                <ul></ul>
+                            </div>
+                        </div>
+                        <!-- Categoria: Canais do YouTube -->
+                        <div class="categoria" data-categoria="Canais do YouTube">
+                            <h3 id="youtube-title">Videoteca Cognita</h3> <!-- Nome da Subcategoria Atualizado -->
+                            <div class="lista-recursos">
+                                <ul></ul>
+                            </div>
+                        </div>
+                        <!-- Categoria: Sites de Notícias -->
+                        <div class="categoria" data-categoria="Sites de Notícias">
+                            <h3 id="noticias-title">Observatório Cognita</h3> <!-- Nome da Subcategoria Atualizado -->
+                            <div class="lista-recursos">
+                                <ul></ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Seção de Questionários -->
+            <section id="quiz-selection-anchor" class="content-section quiz-section">
+                <div class="container">
+                    <h2 class="section-title">Desafie Sua Mente com Cognita Hub</h2> <!-- Título da Seção Atualizado -->
+                    <p class="section-intro">Pronto para o mergulho? Nossos Desafios Cognita são mais que testes: são jornadas de autoavaliação e descoberta. Escolha sua trilha e veja seu conhecimento florescer!</p> <!-- Chamada Atualizada -->
+                    <div class="quiz-grid">
+                        <article class="quiz-card" role="button" tabindex="0" onclick="window.location.href='testes/teste.html?quiz=sociais'" data-quiz-theme="sociais">
+                            <img src="img/quiz-sociais.png" alt="" class="card-icon">
+                            <div class="quiz-card-content">
+                                <h3>Desafio Cognita: Ciências Sociais</h3> <!-- Nome do Quiz Atualizado -->
+                                <p>Antropologia, Sociologia, Ciência Política e mais.</p>
+                            </div>
+                        </article>
+                        <article class="quiz-card" role="button" tabindex="0" onclick="window.location.href='testes/teste.html?quiz=dados'" data-quiz-theme="dados">
+                            <img src="img/quiz-dados.jpeg" alt="" class="card-icon">
+                             <div class="quiz-card-content">
+                                <h3>Desafio Cognita: Gestão de Dados</h3> <!-- Nome do Quiz Atualizado -->
+                                <p>Coleta, processamento, análise e governança de dados.</p>
+                            </div>
+                        </article>
+                        <article class="quiz-card" role="button" tabindex="0" onclick="window.location.href='testes/teste.html?quiz=projetos'" data-quiz-theme="projetos">
+                            <img src="img/quiz-projetos.jpeg" alt="" class="card-icon">
+                            <div class="quiz-card-content">
+                                <h3>Desafio Cognita: Gerenciamento de Projetos</h3> <!-- Nome do Quiz Atualizado -->
+                                <p>Metodologias ágeis, tradicionais e melhores práticas.</p>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Seção de Benefícios -->
+            <section id="benefits-anchor" class="content-section benefits-section">
+                <div class="container">
+                    <h2 class="section-title">Por Que Cognita Hub?</h2> <!-- Título Atualizado -->
+                    <div class="benefits-grid">
+                        <div class="benefit-item">
+                            <i class="fas fa-book-reader benefit-icon"></i>
+                            <h3>Conteúdo Curado</h3>
+                            <p>Recursos e desafios elaborados e selecionados com foco na excelência.</p>
+                        </div>
+                        <div class="benefit-item">
+                            <i class="fas fa-cogs benefit-icon"></i> <!-- Ícone alterado -->
+                            <h3>Aprendizado Flexível</h3>
+                            <p>Estude no seu ritmo, explore no seu tempo, onde e quando quiser.</p>
+                        </div>
+                        <div class="benefit-item">
+                            <i class="fas fa-lightbulb benefit-icon"></i> <!-- Ícone alterado -->
+                            <h3>Feedback Construtivo</h3>
+                            <p>Acompanhe seu progresso e identifique oportunidades de crescimento.</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Seção Sobre o Criador -->
+            <section id="about-creator-anchor" class="content-section about-section">
+                <div class="container">
+                    <h2 class="section-title">Cognita Hub: Uma Iniciativa de Conhecimento</h2> <!-- Título Atualizado -->
+                    <div class="creator-content" style="text-align: center; max-width: 800px; margin-left: auto; margin-right: auto;"> <!-- Max-width aumentado -->
+                        <p>Bem-vindo ao <strong>Cognita Hub</strong>, o seu novo universo para a exploração intelectual e o aprimoramento contínuo. Aqui, cada desafio é um degrau para o crescimento e cada recurso, uma porta para novas compreensões. Navegue por temas instigantes, teste seus limites e sinta o poder transformador da informação ao seu alcance.</p>
+                        <p>Idealizado por <strong>Bruno de Paula Marafiga</strong>, estudante de Gestão da Informação na Universidade Federal do Paraná, o Cognita Hub nasceu da paixão pelo planejamento, controle e pela incessante busca pelo aprendizado que impulsiona organizações e indivíduos.</p>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <!-- Rodapé -->
+        <footer id="contact-anchor" class="site-footer">
+            <div class="container footer-container">
+                <div class="footer-column about-platform">
+                    <h4>Cognita Hub</h4> <!-- Nome da Plataforma Atualizado -->
+                    <p>Seu portal para o conhecimento e desenvolvimento contínuo.</p>
+                </div>
+                <div class="footer-column footer-contact">
+                    <h4>Contato</h4>
+                    <p><i class="fas fa-user"></i> Bruno de Paula Marafiga</p>
+                    <p><i class="fas fa-envelope"></i> <a href="mailto:brunomarafiga@proton.me">brunomarafiga@proton.me</a></p>
+                </div>
+                <div class="footer-column footer-social">
+                    <h4>Redes Sociais</h4>
+                    <div class="social-links">
+                        <a href="https://www.linkedin.com/in/bruno-marafiga/" aria-label="LinkedIn" target="_blank" rel="noopener noreferrer"><i class="fab fa-linkedin"></i></a>
+                        <a href="https://github.com/brunomarafiga" aria-label="GitHub" target="_blank" rel="noopener noreferrer"><i class="fab fa-github"></i></a>
+                        <a href="https://www.instagram.com/brunomarafiga/" aria-label="Instagram" target="_blank" rel="noopener noreferrer"><i class="fab fa-instagram"></i></a>
+                        <a href="https://www.youtube.com/@informacaopopular" aria-label="YouTube" target="_blank" rel="noopener noreferrer"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="copyright-text">
+                <p>&copy; <span id="currentYear"></span> Cognita Hub. Todos os direitos reservados.</p> <!-- Nome da Plataforma Atualizado -->
+            </div>
+        </footer>
+    </div>
+    <script src="js/script.js" defer></script>
+</body>
+</html>
