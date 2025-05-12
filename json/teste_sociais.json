@@ -1,0 +1,382 @@
+{
+  "title": "Questionário de Ciências Sociais",
+  "questions": [
+    {
+      "id": "Antropologia_1",
+      "disciplina": "Antropologia",
+      "tipo": "AG",
+      "contexto": "Pesquisadores do campo da antropologia digital têm debatido sobre a aplicabilidade do método etnográfico tradicional em ambientes virtuais. Durante a pandemia de COVID-19, muitos antropólogos foram forçados a adaptar suas pesquisas para plataformas online, gerando questionamentos sobre a validade da \"etnografia virtual\" ou \"netnografia\".",
+      "pergunta": "Sobre o método etnográfico e suas adaptações contemporâneas, analise as afirmações:",
+      "afirmacoes": [
+        "A observação participante, elemento central do método etnográfico desde Bronislaw Malinowski, pressupõe necessarily a copresença física do pesquisador e dos sujeitos pesquisados, sendo metodologicamente inviável em ambientes digitais.",
+        "Daniel Miller e outros proponentes da antropologia digital argumentam que os ambientes virtuais constituem campos etnográficos legítimos, exigindo adaptações metodológicas sem abandonar os princípios fundamentais da imersão prolongada e participação ativa na vida social estudada.",
+        "Para Christine Hine, a etnografia virtual deve reconhecer as especificidades da socialidade online, como a possibilidade de múltiplas identidades e a fluidez entre contextos online e offline, desenvolvendo abordagens que transcendam a dicotomia real/virtual.",
+        "O método etnográfico clássico, fundamentado na tradição boasiana, rejeita qualquer forma de registro tecnológico, priorizando exclusivamente notas manuscritas do pesquisador como forma de documentação.",
+        "A validade da etnografia em ambientes digitais depende exclusivamente da quantidade de dados coletados, sendo irrelevantes questões como reflexividade, posicionalidade do pesquisador e retorno aos participantes."
+      ],
+      "opcoes": [
+        "I, III e IV",
+        "II, III e V",
+        "I, II e V",
+        "II e III",
+        "Todas as afirmações estão incorretas"
+      ],
+      "resposta": "D"
+    },
+    {
+      "id": "Antropologia_2",
+      "disciplina": "Antropologia",
+      "tipo": "MC",
+      "contexto": "Em seu trabalho sobre sistemas de classificação e pensamento mítico, Claude Lévi-Strauss analisou como diferentes culturas organizam e categorizam o mundo natural e social. Seus estudos sobre o \"pensamento selvagem\" revelaram lógicas sofisticadas de ordenação simbólica em sociedades tradicionais, desafiando concepções etnocêntricas sobre racionalidade e conhecimento.",
+      "pergunta": "A respeito do estruturalismo lévi-straussiano, assinale a alternativa correta:",
+      "opcoes": [
+        "Lévi-Strauss considerava os mitos como expressões irracionais e pré-lógicas das sociedades \"primitivas\", confirmando a superioridade do pensamento científico ocidental sobre outros sistemas de conhecimento.",
+        "Na análise estrutural dos mitos, Lévi-Strauss identificava unidades mínimas de significação (mitemas) organizadas em oposições binárias que expressam contradições fundamentais da experiência humana, como natureza/cultura, cru/cozido, vida/morte.",
+        "O estruturalismo lévi-straussiano rejeita completamente a noção de universalidade, afirmando o relativismo cultural radical como único princípio válido para compreender sistemas classificatórios humanos.",
+        "Em obras como \"O Pensamento Selvagem\", Lévi-Strauss argumenta que o pensamento mítico é incapaz de abstração e generalização, limitando-se a reproduzir acriticamente categorias derivadas da experiência imediata.",
+        "O método estruturalista prioriza a dimensão histórica e diacrônica dos fenômenos culturais, analisando como sistemas simbólicos evoluem linearmente ao longo do tempo em resposta a pressões adaptativas."
+      ],
+      "resposta": "B"
+    },
+    {
+      "id": "Antropologia_3",
+      "disciplina": "Antropologia",
+      "tipo": "VF",
+      "contexto": "Povos indígenas da Amazônia frequentemente descrevem encontros com seres não-humanos (animais, espíritos) que se veem a si mesmos como humanos e percebem os humanos como predadores ou presas. Tais narrativas desafiam pressupostos ontológicos ocidentais sobre a distinção entre natureza e cultura, humanidade e animalidade.",
+      "pergunta": "Com base na teoria do perspectivismo ameríndio, desenvolvida por Eduardo Viveiros de Castro, julgue as afirmações a seguir como verdadeiras (V) ou falsas (F). Após julgar cada afirmação, escolha a alternativa que apresenta a sequência correta de julgamentos:",
+      "vfStatements": [
+        "O perspectivismo propõe que diversos seres (humanos, animais, espíritos) compartilham uma mesma \"cultura\" ou subjetividade, diferindo quanto a seus \"corpos\" ou naturezas, invertendo assim o multiculturalismo ocidental.",
+        "Para Viveiros de Castro, o xamanismo amazônico pode ser compreendido como uma prática de \"tradução\" entre diferentes perspectivas ontológicas, permitindo a comunicação entre mundos humanos e não-humanos.",
+        "A teoria perspectivista é incompatível com o estruturalismo lévi-straussiano, rejeitando completamente a análise de oposições binárias como natureza/cultura em favor de um relativismo radical.",
+        "Segundo o perspectivismo ameríndio, a capacidade de assumir uma perspectiva (ponto de vista) é uma propriedade exclusiva dos seres humanos biológicos, negada a animais e outros seres.",
+        "O perspectivismo ameríndio desafia o conceito antropológico clássico de relativismo cultural ao propor uma instabilidade ontológica onde as categorias \"humano\" e \"não-humano\" não são fixas, mas posicionais e relacionais."
+      ],
+      "opcoes": [
+        "V, V, F, F, V",
+        "F, F, V, V, F",
+        "V, F, F, V, V",
+        "F, V, V, F, F",
+        "V, V, V, F, F"
+      ],
+      "resposta": "A"
+    },
+    {
+      "id": "Antropologia_4",
+      "disciplina": "Antropologia",
+      "tipo": "MC",
+      "contexto": "Em seu famoso ensaio \"Um Jogo Absorvente: Notas sobre a Briga de Galos Balinesa\", Clifford Geertz analisa como um ritual aparentemente trivial revela aspectos profundos da cultura balinesa, demonstrando seu método de \"descrição densa\" e sua concepção semiótica da cultura.",
+      "pergunta": "Sobre a antropologia interpretativa de Clifford Geertz, assinale a alternativa INCORRETA:",
+      "opcoes": [
+        "Geertz define cultura como um sistema de significados publicamente compartilhados, comparando-a a um \"texto\" que pode ser lido e interpretado pelo antropólogo.",
+        "A \"descrição densa\" proposta por Geertz busca captar não apenas comportamentos observáveis, mas também os significados e estruturas simbólicas que os contextualizam dentro de um quadro cultural específico.",
+        "Na análise da briga de galos balinesa, Geertz demonstra como um ritual pode funcionar como \"texto cultural\" que dramatiza hierarquias, valores e tensões sociais, permitindo aos balineses contar uma história sobre si mesmos para si mesmos.",
+        "Para Geertz, o objetivo da etnografia é alcançar uma compreensão objetiva e definitiva das culturas estudadas, eliminando completamente a subjetividade do pesquisador no processo interpretativo.",
+        "A antropologia interpretativa geertziana reconhece que as interpretações do antropólogo são sempre \"interpretações de interpretações\", construções de segunda ou terceira ordem sobre significados que os próprios nativos já elaboram sobre suas práticas."
+      ],
+      "resposta": "D"
+    },
+    {
+      "id": "Antropologia_5",
+      "disciplina": "Antropologia",
+      "tipo": "AG",
+      "contexto": "Em diversas societies melanésias existe o sistema de troca conhecido como Kula, onde braceletes e colares circulam entre ilhas diferentes seguindo regras específicas de reciprocidade. Marcel Mauss analisou este e outros sistemas de troca em seu \"Ensaio sobre a Dádiva\" (1925), obra fundamental para a antropologia econômica.",
+      "pergunta": "Considerando as contribuições de Marcel Mauss para a compreensão das trocas como fatos sociais totais, analise o grupo de afirmativas a seguir:",
+      "afirmacoes": [
+        "Segundo Mauss, a dádiva (ou dom) aparentemente voluntária e desinteressada mascara uma tríplice obrigação social: dar, receber e retribuir, criando vínculos entre pessoas e grupos.",
+        "O conceito de \"fato social total\" desenvolvido por Mauss indica que fenômenos como o Kula não são apenas econômicos, mas articulam simultaneamente dimensões religiosas, jurídicas, morais, estéticas e políticas da vida social.",
+        "Na teoria maussiana, as trocas em sociedades \"arcaicas\" são motivadas exclusivamente pelo interesse material imediato, diferenciando-se fundamentalmente da economia moderna baseada em princípios morais.",
+        "Mauss demonstrou como o hau (espírito da coisa dada) entre os Maori revela que objetos trocados não são inertes, mas carregam algo da identidade do doador, criando laços e obrigações entre os participantes.",
+        "Para Mauss, sistemas como o Kula representam estágios evolutivos primitivos destinados a desaparecer com a modernização, devendo ser substituídos por formas mais eficientes de troca mercantil."
+      ],
+      "opcoes": [
+        "I, II e IV",
+        "I, III e V",
+        "II, III e IV",
+        "II, IV e V",
+        "Todas as afirmações estão incorretas"
+      ],
+      "resposta": "A"
+    },
+    {
+      "id": "Antropologia_6",
+      "disciplina": "Antropologia",
+      "tipo": "MC",
+      "contexto": "O debate sobre direitos humanos universais versus práticas culturais específicas permanece central na antropologia contemporânea. Casos como a excisão genital feminina, casamentos forçados ou sistemas de castas geram tensões entre o respeito à diversidade cultural e princípios éticos considerados universais.",
+      "pergunta": "Sobre o relativismo cultural e suas implicações éticas, avalie as alternativas:",
+      "opcoes": [
+        "O relativismo cultural, conforme formulado por Franz Boas, defende que todas as práticas culturais são igualmente válidas e justificáveis em seus próprios termos, proibindo qualquer crítica intercultural, inclusive a práticas violentas ou opressivas.",
+        "A antropologia contemporânea tende a rejeitar tanto o relativismo cultural extremo (que impossibilita qualquer avaliação ética transcultural) quanto o universalismo etnocêntrico (que impõe valores ocidentais como padrão universal), buscando abordagens dialógicas que reconheçam tanto a diversidade cultural quanto a possibilidade de princípios éticos compartilhados.",
+        "O relativismo metodológico (suspensão temporária de julgamentos para compreender práticas culturais em seus próprios termos) é incompatível com o engajamento ético e político dos antropólogos em questões de justiça social e direitos humanos.",
+        "A crítica ao etnocentrismo desenvolvida pela antropologia exige necessariamente a adesão ao relativismo moral absoluto, que considera impossível estabelecer quaisquer valores transculturais ou princípios éticos compartilhados entre diferentes sociedades.",
+        "A tradição antropológica boasiana demonstrou cientificamente a impossibilidade de comunicação significativa entre culturas diferentes, justificando políticas de segregação cultural como forma de preservar a autenticidade das tradições."
+      ],
+      "resposta": "B"
+    },
+    {
+      "id": "Antropologia_7",
+      "disciplina": "Antropologia",
+      "tipo": "MC",
+      "contexto": "Estudos recentes sobre famílias contemporâneas revelam configurações cada vez mais diversas: famílias homoparentais, monoparentais, reconstituídas, multigeracionais, além de arranjos como coabitação sem casamento formal e relacionamentos não-monogâmicos. Estas transformações desafiam concepções tradicionais sobre parentesco e família.",
+      "pergunta": "Com base nas teorias antropológicas sobre sistemas de parentesco, assinale a alternativa correta:",
+      "opcoes": [
+        "David Schneider, em \"Crítica aos Estudos de Parentesco\", argumentava que o parentesco é universalmente estruturado a partir de fatos biológicos da reprodução, sendo invariável em suas características fundamentais apesar da diversidade cultural.",
+        "A teoria da aliança de Claude Lévi-Strauss explica o parentesco exclusivamente a partir das trocas matrimoniais entre grupos, ignorando completamente aspectos simbólicos e sistemas classificatórios que organizam relações de descendência.",
+        "Segundo a antropologia contemporânea, as novas configurações familiares observadas nas sociedades ocidentais representam anomalias disfuncionais que comprometem a função social básica da família, conforme demonstrado por estudos comparativos transculturais.",
+        "Marilyn Strathern, analisando o impacto das tecnologias reprodutivas, propõe que estas não apenas se adaptam a concepções existentes de parentesco, mas também transformam fundamentalmente as formas como concebemos conexões biológicas e sociais.",
+        "A antropologia do parentesco estabeleceu que sistemas de filiação patrilinear (descendência traçada pelo lado paterno) são universalmente mais comuns e funcionalmente superiores aos sistemas matrilineares, por razões ligadas à divisão sexual do trabalho."
+      ],
+      "resposta": "D"
+    },
+    {
+      "id": "Antropologia_8",
+      "disciplina": "Antropologia",
+      "tipo": "VF",
+      "contexto": "No final do século XIX, antropólogos como Lewis Henry Morgan e Edward Tylor propuseram teorias evolucionistas que classificavam sociedades em estágios de desenvolvimento (selvageria, barbárie, civilização). Estas teorias influenciaram políticas coloniais e justificavam hierarquias raciais, sendo posteriormente criticadas por antropólogos como Franz Boas.",
+      "pergunta": "Sobre a crítica boasiana ao evolucionismo antropológico, julgue os itens como verdadeiros (V) ou falsos (F). Após julgar cada afirmação, escolha a alternativa que apresenta a sequência correta de julgamentos:",
+      "vfStatements": [
+        "Franz Boas contestou o método comparativo dos evolucionistas, que agrupava traços culturais descontextualizados de diferentes sociedades para construir sequências evolutivas especulativas.",
+        "A crítica de Boas ao evolucionismo baseava-se no particularismo histórico, que enfatizava a necessidade de estudar cada cultura em seus próprios termos e contexto histórico específico.",
+        "Boas rejeitou completamente a noção de evolução cultural, negando qualquer possibilidade de mudança ou desenvolvimento nas sociedades humanas ao longo do tempo.",
+        "Os estudos empíricos de Boas sobre plasticidade craniana e desenvolvimento infantil em diferentes grupos étnicos contribuíram para desafiar teorias raciais deterministas que fundamentavam muitas abordagens evolucionistas.",
+        "O relativismo cultural desenvolvido na tradição boasiana era compatível com o racismo científico da época, pois ambos postulavam diferenças inatas e hierárquicas entre grupos humanos."
+      ],
+      "opcoes": [
+        "V, V, F, V, F",
+        "F, V, V, F, V",
+        "V, F, F, V, V",
+        "F, F, V, V, F",
+        "V, V, V, F, F"
+      ],
+      "resposta": "A"
+    },
+    {
+      "id": "Antropologia_9",
+      "disciplina": "Antropologia",
+      "tipo": "AG",
+      "contexto": "O desenvolvimento de tecnologias como próteses avançadas, implantes, modificações genéticas e interfaces cérebro-máquina tem transformado as fronteiras entre corpos humanos e dispositivos tecnológicos. Estas transformações desafiam concepções culturais sobre corporalidade, identidade e o que significa ser humano.",
+      "pergunta": "A partir das contribuições da antropologia do corpo e teorias sobre pós-humanismo, avalie as proposições:",
+      "afirmacoes": [
+        "Mary Douglas, em \"Pureza e Perigo\", demonstra como o corpo funciona como símbolo natural e microcosmo da sociedade, com suas fronteiras e estruturas refletindo preocupações sociais sobre ordem e contaminação.",
+        "Donna Haraway, em seu \"Manifesto Ciborgue\", propõe o híbrido humano-máquina como figura metafórica e política que desafia dualismos ocidentais como natureza/cultura, organismo/máquina e físico/não-físico.",
+        "Para Thomas Csordas, a corporeidade (embodiment) representa um paradigma antropológico que considera o corpo não apenas como objeto de representações culturais, mas como sujeito da cultura e base existencial da mesma.",
+        "A antropologia contemporânea do corpo tem estabelecido consenso sobre a universalidade das experiências corporais básicas, demonstrando que sensações físicas são interpretadas de maneira idêntica através de diferentes contextos culturais.",
+        "David Le Breton argumenta que as modificações tecnológicas do corpo necessariamente alienam os indivíduos de suas experiências corporais autênticas, resultando em formas patológicas de subjetividade desconectadas da materialidade corporal."
+      ],
+      "opcoes": [
+        "I, II e III",
+        "I, III e V",
+        "II, III e IV",
+        "II, IV e V",
+        "Todas as afirmações estão incorretas"
+      ],
+      "resposta": "A"
+    },
+    {
+      "id": "Antropologia_10",
+      "disciplina": "Antropologia",
+      "tipo": "MC",
+      "contexto": "Em 2022, antropólogos analisaram como as formaturas universitárias brasileiras, especialmente na modalidade remota durante a pandemia, mantiveram elementos rituais tradicionais (juramentos, discursos, vestes específicas) mesmo adaptados ao ambiente digital, evidenciando sua importância simbólica para marcar a transição social dos graduandos.",
+      "pergunta": "Considerando as teorias antropológicas sobre rituais e ritos de passagem, assinale a alternativa INCORRETA:",
+      "opcoes": [
+        "Segundo Arnold Van Gennep, os ritos de passagem estruturam-se tipicamente em três fases: separação (afastamento do estado anterior), liminaridade (período ambíguo entre estados) e reagregação (incorporação ao novo estado), podendo ser identificadas mesmo em versões contemporâneas e adaptadas destes rituais.",
+        "Victor Turner ampliou a análise da fase liminar, destacando como a communitas (experiência de igualdade e comunhão entre participantes) suspende temporariamente hierarquias sociais, permitindo reflexão sobre valores e estruturas da sociedade.",
+        "Os rituais, na perspectiva de Clifford Geertz, funcionam como \"modelos de\" e \"modelos para\" a realidade social, simultaneamente refletindo valores culturais e moldando a compreensão e ação dos participantes no mundo.",
+        "Para as teorias funcionalistas, rituais como formaturas universitárias são superstições anacrônicas que persistem apenas por inércia cultural, não cumprindo funções sociais significativas nas societies tecnologicamente avançadas.",
+        "Mary Douglas analisou como rituais funcionam para administrar simbolicamente perigos e ambiguidades, ajudando a restabelecer categorias e fronteiras sociais em momentos de transição ou crise, como pode ocorrer na passagem da identidade de estudante para profissional."
+      ],
+      "resposta": "D"
+    },
+    {
+      "id": "Antropologia_11",
+      "disciplina": "Antropologia",
+      "tipo": "VF",
+      "contexto": "A antropologia como disciplina acadêmica desenvolveu-se no contexto da expansão colonial europeia, gerando debates sobre a cumplicidade da disciplina com projetos imperiais. Nas últimas décadas, antropólogos têm revisitado criticamente essa história, propondo perspectivas decoloniais que reconhecem e desafiam legados coloniais na produção de conhecimento antropológico.",
+      "pergunta": "Sobre a relação entre antropologia e colonialismo, julgue as afirmações abaixo como verdadeiras (V) ou falsas (F). Após julgar cada afirmação, escolha a alternativa que apresenta a sequência correta de julgamentos:",
+      "vfStatements": [
+        "Talal Asad, em \"Anthropology and the Colonial Encounter\", argumenta que, mesmo quando antropólogos individuais se opunham ao colonialismo, a disciplina como instituição estava estruturalmente implicada nas relações de poder coloniais.",
+        "A antropologia aplicada colonial, desenvolvida por administradores como Malinowski na África britânica, representou uma ruptura radical com o colonialismo, estabelecendo desde o início uma abordagem emancipatória e anti-imperialista.",
+        "O conceito de \"colonialidade do saber\", desenvolvido por Aníbal Quijano, refere-se à persistência de hierarquias epistemológicas coloniais mesmo após o fim do colonialismo formal, privilegiando conhecimentos ocidentais sobre saberes indígenas e não-ocidentais.",
+        "A crítica pós-colonial à antropologia, exemplificada por autores como Edward Said, questiona a autoridade etnográfica tradicional e as representações ocidentais do \"outro\" não-ocidental como primitivo, exótico ou atrasado.",
+        "Johannes Fabian, em \"O Tempo e o Outro\", demonstra como a antropologia clássica frequentemente colocava seus objetos de estudo em um \"tempo diferente\" (alocronismo), negando contemporaneidade aos povos estudados e posicionando-os como relíquias de estágios anteriores da evolução humana."
+      ],
+      "opcoes": [
+        "V, F, V, V, V",
+        "F, V, F, V, F",
+        "V, V, F, F, V",
+        "F, F, V, F, V",
+        "V, F, F, V, F"
+      ],
+      "resposta": "A"
+    },
+    {
+      "id": "Antropologia_12",
+      "disciplina": "Antropologia",
+      "tipo": "MC",
+      "contexto": "Pesquisas recentes no campo da antropologia urbana têm se concentrado na análise etnográfica de grandes metrópoles brasileiras, documentando transformações em bairros periféricos, políticas de gentrificação, segregação espacial e novas formas de sociabilidade urbana, como ocorre nos encontros de jovens em \"rolezinhos\" em shoppings ou nas relações estabelecidas em comunidades afetadas por processos de remoção forçada.",
+      "pergunta": "Com base nas teorias da antropologia urbana, assinale a alternativa correta:",
+      "opcoes": [
+        "A Escola de Chicago, pioneira na antropologia urbana, propunha que o ambiente urbano necessariamente deteriora laços sociais e comunitários, produzindo invariavelmente anomia social e isolamento individual, tese que permanece consensual na disciplina.",
+        "A abordagem etnográfica em contextos urbanos é metodologicamente inviável devido à escala e complexidade das cidades modernas, exigindo a substituição do trabalho de campo tradicional por métodos exclusivamente quantitativos e baseados em grandes amostras estatísticas.",
+        "José Guilherme Magnani desenvolveu o conceito de \"pedaço\" para analisar sociabilidades urbanas intermediárias entre a casa e a rua, identificando formas de pertencimento e reconhecimento mútuo que organizam práticas culturais e relações sociais em espaços urbanos como bairros periféricos, praças e outros pontos de encontro.",
+        "A antropologia urbana contemporânea estabeleceu um consenso sobre a universalidade dos processos de urbanização, demonstrando que diferentes cidades globais seguem necessariamente os mesmos padrões de desenvolvimento espacial e sociocultural, independentemente de contextos históricos e regionais específicos.",
+        "Roberto DaMatta, em sua análise sobre as categorias \"casa\" e \"rua\" na sociedade brasileira, argumenta que essas esferas são completamente separadas e impermeáveis, não havendo mediações ou trânsitos significativos entre os domínios doméstico e público no Brasil urbano."
+      ],
+      "resposta": "C"
+    },
+    {
+      "id": "Antropologia_13",
+      "disciplina": "Antropologia",
+      "tipo": "AG",
+      "contexto": "No Brasil contemporâneo, processos de reetnização têm levado ao reconhecimento oficial de comunidades quilombolas, indígenas e outras comunidades tradicionais. De 2003 a 2023, centenas de comunidades quilombolas obtiveram certificação da Fundação Cultural Palmares, enquanto grupos indígenas considerados \"extintos\" passaram por processos de reivindicação identitária, como os Pankararé, Tuxá e Pataxó no Nordeste.",
+      "pergunta": "A respeito das teorias antropológicas sobre etnicidade e processos identitários, analise as afirmações:",
+      "afirmacoes": [
+        "Fredrik Barth, em \"Grupos Étnicos e suas Fronteiras\", propôs uma abordagem que enfatiza a etnicidade como processo relacional e dinâmico, definido pela manutenção de fronteiras entre grupos sociais, e não pelo \"conteúdo cultural\" isolado de cada grupo.",
+        "O conceito de \"essencialismo estratégico\", proposto por Gayatri Spivak, reconhece que grupos subalternos podem mobilizar temporariamente identidades aparentemente essencializadas como recurso político para reivindicação de direitos, mesmo reconhecendo a natureza construída e heterogênea dessas identidades.",
+        "As teorias primordialistas da etnicidade, dominantes na antropologia contemporânea, argumentam que identidades étnicas são baseadas em vínculos primordiais fixos e imutáveis, transmitidos biologicamente e impermeáveis a processos históricos de transformação.",
+        "A etnogênese, processo pelo qual grupos sociais emergem ou se redefinem como entidades étnicas distintas, é considerada pela antropologia atual como fenômeno ilegítimo que produz \"falsos índios\" ou \"falsos quilombolas\", devendo ser desencorajada por políticas públicas.",
+        "Stuart Hall, teórico dos estudos culturais, argumenta que identidades culturais na modernidade tardia são cada vez mais fragmentadas, múltiplas e sujeitas a transformações históricas, desafiando concepções essencialistas de pertencimento étnico ou cultural."
+      ],
+      "opcoes": [
+        "I, II e V",
+        "I, III e IV",
+        "II, III e V",
+        "I, IV e V",
+        "III, IV e V"
+      ],
+      "resposta": "A"
+    },
+    {
+      "id": "Antropologia_14",
+      "disciplina": "Antropologia",
+      "tipo": "MC",
+      "contexto": "Grandes projetos de desenvolvimento na Amazônia, como hidrelétricas, rodovias e mineração, têm impactado significativamente povos indígenas e comunidades tradicionais. A construção da Usina de Belo Monte, por exemplo, alterou profundamente a vida de povos como os Juruna, Arara e Xikrin, gerando deslocamentos forçados, mudanças ambientais e transformações socioculturais, apesar de programas de mitigação e compensação.",
+      "pergunta": "Considerando as contribuições da antropologia do desenvolvimento, assinale a alternativa INCORRETA:",
+      "opcoes": [
+        "Arturo Escobar, em \"Encountering Development\", analisa criticamente como o discurso do desenvolvimento constrói o \"Terceiro Mundo\" como objeto de intervenção técnica, naturalizando relações de poder e representando culturas locais como obstáculos ao progresso.",
+        "A antropologia colaborativa em contextos de desenvolvimento prioriza metodologias participativas que incorporam conhecimentos e prioridades locais, reconhecendo comunidades afetadas como agentes ativos e não meros \"beneficiários\" passivos de projetos exógenos.",
+        "O conceito de \"conhecimento local\" ou \"etnociência\", utilizado na antropologia do desenvolvimento, reconhece sistemas de conhecimento indígenas e tradicionais como epistemologicamente equivalentes ao conhecimento científico ocidental, embora aplicáveis a contextos específicos.",
+        "A antropologia do desenvolvimento contemporânea considera que as intervenções desenvolvimentistas falham primordialmente devido à resistência cultural irracional de comunidades tradicionais, que devem ser reeducadas para aceitar valores progressistas ocidentais.",
+        "James Ferguson, em \"The Anti-Politics Machine\", demonstra como projetos de desenvolvimento frequentemente despolitizam questões estruturais de desigualdade e poder, reduzindo-as a problemas técnicos solucionáveis através de intervenções burocráticas e conhecimento especializado."
+      ],
+      "resposta": "D"
+    },
+    {
+      "id": "Antropologia_15",
+      "disciplina": "Antropologia",
+      "tipo": "AG",
+      "contexto": "Fenômenos transnacionais como migrações em massa, fluxos de capital, circulação de bens culturais e tecnologias digitais têm transformado paisagens culturais locais. Comunidades diaspóricas mantêm conexões com seus lugares de origem através de remessas financeiras, comunicação digital e práticas culturais híbridas, desafiando noções tradicionais sobre cultura e território.",
+      "pergunta": "Sobre a antropologia da globalização, avalie as proposições:",
+      "afirmacoes": [
+        "Arjun Appadurai propõe cinco dimensões de fluxos culturais globais (ethnoscapes, mediascapes, technoscapes, financescapes e ideoscapes) para analisar a complexidade da globalização além de modelos simplistas de homogeneização cultural.",
+        "O conceito de \"glocalização\", desenvolvido por Roland Robertson, refere-se à forma como processos globais são reinterpretados e incorporados em contextos locais específicos, produzindo resultados culturais heterogêneos e não simplesmente uma cultura global uniforme.",
+        "Ulf Hannerz, com sua noção de \"ecumene global\", argumenta que fluxos culturais transnacionais são unidirecionais, partindo exclusivamente de centros metropolitanos para periferias passivas, em um processo de americanização inevitável e irreversível.",
+        "A teoria antropológica da globalização define culturas como entidades claramente delimitadas e internamente homogêneas, cujas fronteiras coincidem necessariamente com territórios nacionais, permitindo análises culturais discretas e separadas.",
+        "James Clifford desenvolve o conceito de \"culturas viajantes\" para analisar como mobilidades, deslocamentos e rotas (e não apenas raízes) são constitutivos de identidades culturais contemporâneas, desafiando o isomorfismo tradicional entre lugar, cultura e identidade."
+      ],
+      "opcoes": [
+        "I, II e V",
+        "I, III e IV",
+        "II, III e V",
+        "I, IV e V",
+        "III, IV e V"
+      ],
+      "resposta": "A"
+    },
+    {
+      "id": "Antropologia_16",
+      "disciplina": "Antropologia",
+      "tipo": "VF",
+      "contexto": "O uso de imagens na antropologia tem uma longa história, desde as fotografias coloniais até o cinema etnográfico e, mais recentemente, metodologias participativas que fornecem câmeras a membros das comunidades estudadas. O projeto \"Vídeo nas Aldeias\", desenvolvido no Brasil desde 1986, tem capacitado cineastas indígenas a produzirem seus próprios filmes, gerando um rico acervo de narrativas visuais autorepresentativas.",
+      "pergunta": "Sobre antropologia visual e suas abordagens metodológicas, julgue os itens como verdadeiros (V) ou falsos (F). Após julgar cada afirmação, escolha a alternativa que apresenta a sequência correta de julgamentos:",
+      "vfStatements": [
+        "Jean Rouch, pioneiro do cinema etnográfico, desenvolveu a abordagem da \"antropologia compartilhada\", reconhecendo os sujeitos filmados como colaboradores ativos no processo cinematográfico e explorando a reflexividade e a intersubjetividade na produção de conhecimento antropológico.",
+        "A fotografia e o filme etnográficos são valorizados na antropologia contemporânea exclusivamente como técnicas de registro objetivo da realidade cultural, sendo considerados superiores aos métodos textuais justamente por eliminarem a subjetividade e interpretação do pesquisador.",
+        "Margaret Mead e Gregory Bateson, em seu trabalho pioneiro \"Balinese Character\", demonstraram como a análise sistemática de fotografias poderia revelar padrões comportamentais e relações sociais não facilmente captáveis apenas pela observação não mediada ou descrição textual.",
+        "A antropologia visual participativa, que fornece tecnologias de imagem às comunidades estudadas, fundamenta-se no reconhecimento de que diferentes grupos culturais podem ter formas distintas de visualidade e representação, resultando em produções visuais que refletem epistemologias e estéticas próprias.",
+        "David MacDougall argumenta que o conhecimento visual antropológico é meramente ilustrativo de conceitos desenvolvidos textualmente, não constituindo uma forma distinta de conhecimento com potencial para transformar a teoria antropológica."
+      ],
+      "opcoes": [
+        "V, F, V, V, F",
+        "F, V, F, V, V",
+        "V, V, F, F, V",
+        "F, F, V, V, F",
+        "V, F, F, F, V"
+      ],
+      "resposta": "A"
+    },
+    {
+      "id": "Antropologia_17",
+      "disciplina": "Antropologia",
+      "tipo": "MC",
+      "contexto": "O Brasil contemporâneo passa por significativa transformação em seu campo religioso. Dados do último censo mostram o crescimento acelerado de denominações evangélicas pentecostais e neopentecostais, declínio percentual de católicos, persistência de religiões de matriz africana e aumento de pessoas sem religião, configurando um cenário de pluralismo e competição religiosa.",
+      "pergunta": "Sobre as teorias antropológicas da religião, assinale a alternativa correta:",
+      "opcoes": [
+        "Clifford Geertz define religião como sistema cultural que estabelece estados de ânimo e motivações através de concepções de ordem geral da existência, revestidas de uma aura de factualidade que as faz parecer singularmente realistas.",
+        "Victor Turner, em sua análise do ritual Ndembu, demonstra que símbolos religiosos são universalmente interpretados da mesma forma em todas as culturas, revelando arquétipos junguianos invariáveis da psique humana.",
+        "A teoria racionalista de E.B. Tylor e James Frazer, predominante na antropologia contemporânea, estabelece que práticas religiosas são essencialmente tentativas racionais de controlar o ambiente natural, destinadas a desaparecer com o avanço da ciência moderna.",
+        "Mary Douglas, em \"Pureza e Perigo\", argumenta que tabus e noções de poluição religiosa são universalmente irracionais e disfuncionais, representando obstáculos ao pensamento lógico que devem ser superados pela educação científica.",
+        "O perspectivismo ameríndio, conforme elaborado por Eduardo Viveiros de Castro, estabelece que cosmologias indígenas são fundamentalmente equivalentes às crenças religiosas ocidentais, podendo ser analisadas com os mesmos conceitos teológicos desenvolvidos para o estudo do cristianismo."
+      ],
+      "resposta": "A"
+    },
+    {
+      "id": "Antropologia_18",
+      "disciplina": "Antropologia",
+      "tipo": "AG",
+      "contexto": "Durante a pandemia de COVID-19, diferentes respostas culturais à doença emergiram globalmente. Enquanto alguns países adotaram rapidamente o uso de máscaras a partir de práticas culturais preexistentes, em outros lugares surgiram resistências a medidas preventivas baseadas em visões políticas, religiosas ou concepções alternativas sobre corpo e imunidade.",
+      "pergunta": "Com base nas teorias da antropologia médica e da saúde, analise as afirmações:",
+      "afirmacoes": [
+        "Arthur Kleinman propõe a distinção entre disease (patologia na perspectiva biomédica), illness (experiência subjetiva do sofrimento) e sickness (dimensão social da doença), contribuindo para uma compreensão da saúde/doença como fenômeno multidimensional.",
+        "O conceito de \"eficácia simbólica\", desenvolvido por Claude Lévi-Strauss, reconhece como práticas terapêuticas culturalmente significativas podem produzir efeitos fisiológicos concretos através da mobilização de sistemas simbólicos compartilhados.",
+        "A antropologia médica crítica, desenvolvida por autores como Nancy Scheper-Hughes, argumenta que contextos de desigualdade estrutural, violência e pobreza devem ser ignorados na análise de sistemas médicos tradicionais, privilegiando explicações puramente culturalistas.",
+        "Para Byron Good, sistemas médicos funcionam como sistemas culturais que produzem realidades clínicas através de processos interpretativos, construindo objetos específicos (como \"doentes\" e \"doenças\") através de redes semânticas culturalmente específicas.",
+        "A antropologia médica contemporânea estabeleceu consenso de que modelos explicativos biomédicos são cientificamente superiores e universalmente mais eficazes que sistemas médicos tradicionais, recomendando a substituição completa destes por aqueles em contextos interculturais."
+      ],
+      "opcoes": [
+        "I, II e IV",
+        "I, III e V",
+        "II, III e IV",
+        "II, IV e V",
+        "III, IV e V"
+      ],
+      "resposta": "A"
+    },
+    {
+      "id": "Antropologia_19",
+      "disciplina": "Antropologia",
+      "tipo": "VF",
+      "contexto": "Plataformas como TikTok, Instagram e Twitter tornaram-se não apenas espaços de interação social, mas também campos etnográficos importantes. Estudos recentes têm analisado como comunidades online desenvolvem normas próprias, linguagens especializadas, rituais digitais e formas de sociabilidade específicas, desafiando distinções tradicionais entre mundos \"real\" e \"virtual\".",
+      "pergunta": "Considerando os desenvolvimentos teóricos da antropologia digital, julgue as afirmações como verdadeiras (V) ou falsas (F). Após julgar cada afirmação, escolha a alternativa que apresenta a sequência correta de julgamentos:",
+      "vfStatements": [
+        "A antropologia digital, conforme proposta por Daniel Miller e Heather Horst, não se limita a estudar tecnologias digitais como objetos, mas compreende o digital como constitutivo de grande parte da vida cultural contemporânea, exigindo métodos etnográficos adaptados.",
+        "Tom Boellstorff, em seu estudo etnográfico sobre o Second Life (\"Coming of Age in Second Life\"), demonstra que ambientes virtuais simplesmente reproduzem estruturas sociais do mundo físico, sem desenvolver culturalidades ou sociabilidades específicas ao meio digital.",
+        "O conceito de \"materialidade digital\", central na antropologia digital contemporânea, reconhece que tecnologias digitais não são meramente virtuais ou imateriais, mas possuem materialidades específicas que condicionam práticas, relações e experiências.",
+        "A etnografia digital, segundo Christine Hine, deve analisar o online e o offline como esferas completamente separadas e autônomas, evitando qualquer abordagem que considere sua interconexão ou coprodução mútua na vida cotidiana.",
+        "A corrente teórica dominante na antropologia digital argumenta que comunidades online são necessariamente menos \"reais\" ou significativas que comunidades baseadas em território físico compartilhado, constituindo apenas simulacros empobrecidos de sociabilidade autêntica."
+      ],
+      "opcoes": [
+        "V, F, V, F, F",
+        "F, V, F, V, V",
+        "V, V, F, F, V",
+        "F, F, V, V, F",
+        "V, F, F, F, V"
+      ],
+      "resposta": "A"
+    },
+    {
+      "id": "Antropologia_20",
+      "disciplina": "Antropologia",
+      "tipo": "MC",
+      "contexto": "Antropólogos têm atuado cada vez mais em contextos aplicados, como defesa de direitos territoriais indígenas, elaboração de laudos antropológicos para reconhecimento de comunidades quilombolas, assessoria em políticas públicas e projetos de desenvolvimento comunitário. Esta atuação levanta questões sobre o papel político do antropólogo e a relação entre produção de conhecimento e intervenção social.",
+      "pergunta": "Sobre a antropologia aplicada e engajada, avalie as alternativas:",
+      "opcoes": [
+        "A antropologia aplicada contemporânea defende posição de neutralidade absoluta do pesquisador, rejeitando qualquer forma de compromisso ou engajamento com as comunidades estudadas como violação da objetividade científica.",
+        "Charles Hale propõe o conceito de \"pesquisa ativista\" para descrever uma prática antropológica que explicitamente alinha seus métodos com as lutas políticas de grupos estudados, desenvolvendo uma metodologia que combina rigor acadêmico e compromisso político, sem ver contradição entre ambos.",
+        "Nancy Scheper-Hughes, em sua defesa da \"antropologia militante\", argumenta que o compromisso ético primeiro do antropólogo deve ser com a comunidade científica e seus padrões disciplinares, evitando envolvimento em questões políticas que possam comprometer a neutralidade da pesquisa.",
+        "Os laudos antropológicos produzidos para reconhecimento de territórios tradicionais são considerados incompatíveis com o fazer antropológico acadêmico, pois exigem simplificação excessiva de realidades culturais complexas, sendo rejeitados pela antropologia contemporânea.",
+        "A antropologia aplicada representa uma ruptura radical com a antropologia teórica, abandonando completamente questões conceituais e epistemológicas em favor de soluções puramente técnicas para problemas sociais concretos."
+      ],
+      "resposta": "B"
+    }
+  ]
+}

@@ -1,0 +1,1505 @@
+{
+  "title": "Questionário de Gerenciamento de Projetos",
+  "questions": [
+    {
+      "id": "Gerenciamento_de_Projetos_1",
+      "disciplina": "Gerenciamento de Projetos",
+      "tipo": "MC",
+      "tipo_original_comentario": "Múltipla Escolha",
+      "pergunta": "Qual é o objetivo principal do gerenciamento de projetos moderno?",
+      "opcoes": [
+        "Seguir rigorosamente um plano pré-definido, sem desvios.",
+        "Entregar resultados que agreguem valor à organização e às partes interessadas.",
+        "Focar exclusivamente na minimização dos custos.",
+        "Produzir a maior quantidade possível de documentação.",
+        "Utilizar apenas as ferramentas tecnológicas mais recentes."
+      ],
+      "resposta": "B"
+    },
+    {
+      "id": "Gerenciamento_de_Projetos_2",
+      "disciplina": "Gerenciamento de Projetos",
+      "tipo": "VF",
+      "tipo_original_comentario": "Verdadeiro/Falso",
+      "pergunta": "Julgue a afirmação a seguir como verdadeira (V) ou falsa (F):",
+      "vfStatements": [
+        "Um 'resultado' (outcome) de um projeto é exatamente a mesma coisa que um 'entregável' (deliverable)."
+      ],
+      "opcoes": [
+        "V",
+        "F"
+      ],
+      "resposta": "B"
+    },
+    {
+      "id": "Gerenciamento_de_Projetos_3",
+      "disciplina": "Gerenciamento de Projetos",
+      "tipo": "MC",
+      "tipo_original_comentario": "Múltipla Escolha",
+      "pergunta": "A aplicação de conhecimento, habilidades, ferramentas e técnicas às atividades do projeto para atender aos requisitos do projeto refere-se a:",
+      "opcoes": [
+        "Gerenciamento de Operações",
+        "Gerenciamento de Programas",
+        "Gerenciamento de Portfólio",
+        "Gerenciamento de Projetos",
+        "Gerenciamento da Qualidade Total"
+      ],
+      "resposta": "D"
+    },
+    {
+      "id": "Gerenciamento_de_Projetos_4",
+      "disciplina": "Gerenciamento de Projetos",
+      "tipo": "MC",
+      "tipo_original_comentario": "Múltipla Escolha",
+      "pergunta": "Qual conceito enfatiza ver o projeto e seu ambiente como um conjunto de elementos interdependentes e interativos?",
+      "opcoes": [
+        "Pensamento Crítico",
+        "Pensamento Sistêmico",
+        "Gerenciamento de Riscos",
+        "Análise de Causa Raiz",
+        "Inteligência Emocional"
+      ],
+      "resposta": "B"
+    },
+    {
+      "id": "Gerenciamento_de_Projetos_5",
+      "disciplina": "Gerenciamento de Projetos",
+      "tipo": "MC",
+      "tipo_original_comentario": "Múltipla Escolha",
+      "pergunta": "Um conjunto de projetos, programas, portfólios subsidiários e operações gerenciados como um grupo para alcançar objetivos estratégico é um:",
+      "opcoes": [
+        "Projeto",
+        "Programa",
+        "Portfólio",
+        "Centro de Custo",
+        "Departamento Funcional"
+      ],
+      "resposta": "C"
+    },
+    {
+      "id": "Gerenciamento_de_Projetos_6",
+      "disciplina": "Gerenciamento de Projetos",
+      "tipo": "VF",
+      "tipo_original_comentario": "Verdadeiro/Falso",
+      "pergunta": "Julgue a afirmação a seguir como verdadeira (V) ou falsa (F):",
+      "vfStatements": [
+        "O valor gerado por um projeto é percebido de forma idêntica por todas as partes interessadas."
+      ],
+      "opcoes": [
+        "V",
+        "F"
+      ],
+      "resposta": "B"
+    },
+    {
+      "id": "Gerenciamento_de_Projetos_7",
+      "disciplina": "Gerenciamento de Projetos",
+      "tipo": "MC",
+      "tipo_original_comentario": "Múltipla Escolha",
+      "pergunta": "Qual princípio sugere que os gerentes de projeto e equipes devem agir com responsabilidade no gerenciamento dos recursos confiados a eles?",
+      "opcoes": [
+        "Foco no Valor",
+        "Adaptabilidade",
+        "Administração/Mordomia (Stewardship)",
+        "Qualidade",
+        "Colaboração"
+      ],
+      "resposta": "C"
+    },
+    {
+      "id": "Gerenciamento_de_Projetos_8",
+      "disciplina": "Gerenciamento de Projetos",
+      "tipo": "MC",
+      "tipo_original_comentario": "Múltipla Escolha",
+      "pergunta": "A importância de cultivar um ambiente onde a equipe possa trabalhar em conjunto de forma eficaz é destacada por qual princípio?",
+      "opcoes": [
+        "Liderança",
+        "Adaptação ao Contexto",
+        "Colaboração",
+        "Engajamento das Partes Interessadas",
+        "Qualidade"
+      ],
+      "resposta": "C"
+    },
+    {
+      "id": "Gerenciamento_de_Projetos_9",
+      "disciplina": "Gerenciamento de Projetos",
+      "tipo": "MC",
+      "tipo_original_comentario": "Múltipla Escolha",
+      "pergunta": "Interagir proativamente com indivíduos ou grupos que podem ser afetados pelo projeto é fundamental para qual princípio?",
+      "opcoes": [
+        "Otimização de Riscos",
+        "Engajamento das Partes Interessadas",
+        "Liderança",
+        "Foco no Valor",
+        "Navegação na Complexidade"
+      ],
+      "resposta": "B"
+    },
+    {
+      "id": "Gerenciamento_de_Projetos_10",
+      "disciplina": "Gerenciamento de Projetos",
+      "tipo": "MC",
+      "tipo_original_comentario": "Múltipla Escolha",
+      "pergunta": "Qual princípio fundamental orienta as decisões e ações do projeto para garantir que os benefícios pretendidos sejam alcançados?",
+      "opcoes": [
+        "Qualidade",
+        "Foco no Valor",
+        "Liderança",
+        "Adaptabilidade",
+        "Colaboração"
+      ],
+      "resposta": "B"
+    },
+    {
+      "id": "Gerenciamento_de_Projetos_11",
+      "disciplina": "Gerenciamento de Projetos",
+      "tipo": "VF",
+      "tipo_original_comentario": "Verdadeiro/Falso",
+      "pergunta": "Julgue a afirmação a seguir como verdadeira (V) ou falsa (F):",
+      "vfStatements": [
+        "A liderança eficaz em um projeto é responsabilidade exclusiva do gerente de projeto designado."
+      ],
+      "opcoes": [
+        "V",
+        "F"
+      ],
+      "resposta": "B"
+    },
+    {
+      "id": "Gerenciamento_de_Projetos_12",
+      "disciplina": "Gerenciamento de Projetos",
+      "tipo": "MC",
+      "tipo_original_comentario": "Múltipla Escolha",
+      "pergunta": "Ajustar a abordagem de gerenciamento com base no projeto específico, organização, partes interessadas e outros fatores é conhecido como:",
+      "opcoes": [
+        "Padronização",
+        "Delegação",
+        "Adaptação (Tailoring)",
+        "Execução",
+        "Monitoramento"
+      ],
+      "resposta": "C"
+    },
+    {
+      "id": "Gerenciamento_de_Projetos_13",
+      "disciplina": "Gerenciamento de Projetos",
+      "tipo": "MC",
+      "tipo_original_comentario": "Múltipla Escolha",
+      "pergunta": "Incorporar a atenção à excelência nos processos e resultados do projeto refere-se ao princípio de:",
+      "opcoes": [
+        "Qualidade",
+        "Risco",
+        "Valor",
+        "Mudança",
+        "Liderança"
+      ],
+      "resposta": "A"
+    },
+    {
+      "id": "Gerenciamento_de_Projetos_14",
+      "disciplina": "Gerenciamento de Projetos",
+      "tipo": "MC",
+      "tipo_original_comentario": "Múltipla Escolha",
+      "pergunta": "Reconhecer e lidar com a natureza dinâmica e multifacetada dos projetos e seus ambientes é central para qual princípio?",
+      "opcoes": [
+        "Qualidade",
+        "Risco",
+        "Valor",
+        "Navegação na Complexidade",
+        "Colaboração"
+      ],
+      "resposta": "D"
+    },
+    {
+      "id": "Gerenciamento_de_Projetos_15",
+      "disciplina": "Gerenciamento de Projetos",
+      "tipo": "MC",
+      "tipo_original_comentario": "Múltipla Escolha",
+      "pergunta": "A abordagem proativa para lidar com eventos incertos que podem impactar positiva ou negativamente o projeto é:",
+      "opcoes": [
+        "Gerenciamento da Qualidade",
+        "Gerenciamento do Escopo",
+        "Otimização de Riscos",
+        "Gerenciamento da Comunicação",
+        "Gerenciamento de Custos"
+      ],
+      "resposta": "C"
+    },
+    {
+      "id": "Gerenciamento_de_Projetos_16",
+      "disciplina": "Gerenciamento de Projetos",
+      "tipo": "MC",
+      "tipo_original_comentario": "Múltipla Escolha",
+      "pergunta": "Qual princípio enfatiza a capacidade de responder a condições variáveis e se recuperar de contratempos?",
+      "opcoes": [
+        "Liderança",
+        "Foco no Valor",
+        "Qualidade",
+        "Adaptabilidade e Resiliência",
+        "Colaboração"
+      ],
+      "resposta": "D"
+    },
+    {
+      "id": "Gerenciamento_de_Projetos_17",
+      "disciplina": "Gerenciamento de Projetos",
+      "tipo": "MC",
+      "tipo_original_comentario": "Múltipla Escolha",
+      "pergunta": "A preparação da organização e das partes interessadas para os resultados do projeto e a transição para o estado futuro é o foco de qual princípio?",
+      "opcoes": [
+        "Gerenciamento de Mudanças",
+        "Habilitação da Mudança",
+        "Controle de Mudanças",
+        "Comunicação da Mudança",
+        "Resistência à Mudança"
+      ],
+      "resposta": "B"
+    },
+    {
+      "id": "Gerenciamento_de_Projetos_18",
+      "disciplina": "Gerenciamento de Projetos",
+      "tipo": "MC",
+      "tipo_original_comentario": "Múltipla Escolha",
+      "pergunta": "A análise das partes interessadas busca entender principalmente:",
+      "opcoes": [
+        "Apenas suas necessidades financeiras.",
+        "Seus interesses, direitos, poder e impacto potencial no projeto.",
+        "Sua disponibilidade para reuniões.",
+        "Seu conhecimento técnico detalhado.",
+        "Sua localização geográfica exata."
+      ],
+      "resposta": "B"
+    },
+    {
+      "id": "Gerenciamento_de_Projetos_19",
+      "disciplina": "Gerenciamento de Projetos",
+      "tipo": "MC",
+      "tipo_original_comentario": "Múltipla Escolha",
+      "pergunta": "Qual é o objetivo principal do engajamento das partes interessadas?",
+      "opcoes": [
+        "Minimizar toda a comunicação.",
+        "Fomentar suporte e minimizar oposição para os objetivos do projeto.",
+        "Atribuir tarefas específicas a cada parte interessada.",
+        "Obter aprovação formal para cada decisão.",
+        "Isolar a equipe do projeto das partes interessadas."
+      ],
+      "resposta": "B"
+    },
+    {
+      "id": "Gerenciamento_de_Projetos_20",
+      "disciplina": "Gerenciamento de Projetos",
+      "tipo": "VF",
+      "tipo_original_comentario": "Verdadeiro/Falso",
+      "pergunta": "Julgue a afirmação a seguir como verdadeira (V) ou falsa (F):",
+      "vfStatements": [
+        "A estratégia de engajamento deve ser a mesma para todas as partes interessadas."
+      ],
+      "opcoes": [
+        "V",
+        "F"
+      ],
+      "resposta": "B"
+    },
+    {
+      "id": "Gerenciamento_de_Projetos_21",
+      "disciplina": "Gerenciamento de Projetos",
+      "tipo": "MC",
+      "tipo_original_comentario": "Múltipla Escolha",
+      "pergunta": "Monitorar o engajamento das partes interessadas ao longo do projeto é importante para:",
+      "opcoes": [
+        "Garantir que ninguém mude de opinião.",
+        "Ajustar as estratégias de engajamento conforme necessário.",
+        "Documentar falhas na comunicação.",
+        "Aumentar o número de reuniões.",
+        "Reduzir o escopo do projeto."
+      ],
+      "resposta": "B"
+    },
+    {
+      "id": "Gerenciamento_de_Projetos_22",
+      "disciplina": "Gerenciamento de Projetos",
+      "tipo": "MC",
+      "tipo_original_comentario": "Múltipla Escolha",
+      "pergunta": "Qual modelo descreve os estágios de formação, turbulência, normatização e desempenho de uma equipe?",
+      "opcoes": [
+        "Modelo OSCAR",
+        "Modelo de Tuckman",
+        "Modelo Drexler/Sibbet",
+        "Modelo de Herzberg",
+        "Modelo de Maslow"
+      ],
+      "resposta": "B"
+    },
+    {
+      "id": "Gerenciamento_de_Projetos_23",
+      "disciplina": "Gerenciamento de Projetos",
+      "tipo": "MC",
+      "tipo_original_comentario": "Múltipla Escolha",
+      "pergunta": "A inteligência emocional é crucial para a equipe do projeto porque ajuda a:",
+      "opcoes": [
+        "Escrever código mais eficiente.",
+        "Gerenciar as próprias emoções e entender as dos outros, melhorando a colaboração.",
+        "Criar cronogramas mais precisos.",
+        "Analisar dados financeiros complexos.",
+        "Desenvolver especificações técnicas."
+      ],
+      "resposta": "B"
+    },
+    {
+      "id": "Gerenciamento_de_Projetos_24",
+      "disciplina": "Gerenciamento de Projetos",
+      "tipo": "VF",
+      "tipo_original_comentario": "Verdadeiro/Falso",
+      "pergunta": "Julgue a afirmação a seguir como verdadeira (V) ou falsa (F):",
+      "vfStatements": [
+        "A cultura de uma equipe de projeto é sempre idêntica à cultura organizacional geral."
+      ],
+      "opcoes": [
+        "V",
+        "F"
+      ],
+      "resposta": "B"
+    },
+    {
+      "id": "Gerenciamento_de_Projetos_25",
+      "disciplina": "Gerenciamento de Projetos",
+      "tipo": "MC",
+      "tipo_original_comentario": "Múltipla Escolha",
+      "pergunta": "Liderança servidora em uma equipe de projeto foca em:",
+      "opcoes": [
+        "Tomar todas as decisões pela equipe.",
+        "Microgerenciar as tarefas diárias.",
+        "Remover obstáculos e apoiar o crescimento e desempenho da equipe.",
+        "Manter um controle rígido sobre a comunicação.",
+        "Priorizar as necessidades do líder sobre as da equipe."
+      ],
+      "resposta": "C"
+    },
+    {
+      "id": "Gerenciamento_de_Projetos_26",
+      "disciplina": "Gerenciamento de Projetos",
+      "tipo": "MC",
+      "tipo_original_comentario": "Múltipla Escolha",
+      "pergunta": "Estabelecer normas de trabalho e parâmetros comportamentais claros desde o início ajuda a equipe a:",
+      "opcoes": [
+        "Aumentar conflitos.",
+        "Reduzir a produtividade.",
+        "Trabalhar de forma mais coesa e eficaz.",
+        "Ignorar as metas do projeto.",
+        "Diminuir a confiança mútua."
+      ],
+      "resposta": "C"
+    },
+    {
+      "id": "Gerenciamento_de_Projetos_27",
+      "disciplina": "Gerenciamento de Projetos",
+      "tipo": "MC",
+      "tipo_original_comentario": "Múltipla Escolha",
+      "pergunta": "Uma abordagem de desenvolvimento onde o escopo, tempo e custo são determinados no início do projeto é chamada de:",
+      "opcoes": [
+        "Adaptativa",
+        "Ágil",
+        "Iterativa",
+        "Preditiva",
+        "Incremental"
+      ],
+      "resposta": "D"
+    },
+    {
+      "id": "Gerenciamento_de_Projetos_28",
+      "disciplina": "Gerenciamento de Projetos",
+      "tipo": "MC",
+      "tipo_original_comentario": "Múltipla Escolha",
+      "pergunta": "Abordagens que utilizam iterações curtas para refinar o trabalho e se adaptar a mudanças são conhecidas como:",
+      "opcoes": [
+        "Cascata",
+        "Preditivas",
+        "Adaptativas",
+        "Sequenciais",
+        "Lineares"
+      ],
+      "resposta": "C"
+    },
+    {
+      "id": "Gerenciamento_de_Projetos_29",
+      "disciplina": "Gerenciamento de Projetos",
+      "tipo": "VF",
+      "tipo_original_comentario": "Verdadeiro/Falso",
+      "pergunta": "Julgue a afirmação a seguir como verdadeira (V) ou falsa (F):",
+      "vfStatements": [
+        "Um ciclo de vida de projeto define as fases sequenciais ou sobrepostas pelas quais um projeto passa."
+      ],
+      "opcoes": [
+        "V",
+        "F"
+      ],
+      "resposta": "A"
+    },
+    {
+      "id": "Gerenciamento_de_Projetos_30",
+      "disciplina": "Gerenciamento de Projetos",
+      "tipo": "MC",
+      "tipo_original_comentario": "Múltipla Escolha",
+      "pergunta": "Entregar funcionalidades completas em ciclos curtos e fixos é característico de qual tipo de entrega?",
+      "opcoes": [
+        "Entrega única",
+        "Entregas múltiplas não sequenciais",
+        "Entregas periódicas / incrementais",
+        "Entrega contínua",
+        "Entrega preditiva"
+      ],
+      "resposta": "C"
+    },
+    {
+      "id": "Gerenciamento_de_Projetos_31",
+      "disciplina": "Gerenciamento de Projetos",
+      "tipo": "MC",
+      "tipo_original_comentario": "Múltipla Escolha",
+      "pergunta": "A escolha da abordagem de desenvolvimento é influenciada por:",
+      "opcoes": [
+        "Apenas o orçamento disponível.",
+        "Apenas a preferência da equipe.",
+        "O tipo de produto, a certeza dos requisitos e a estabilidade do escopo.",
+        "Apenas a localização geográfica da equipe.",
+        "Apenas as ferramentas de software utilizadas."
+      ],
+      "resposta": "C"
+    },
+    {
+      "id": "Gerenciamento_de_Projetos_32",
+      "disciplina": "Gerenciamento de Projetos",
+      "tipo": "MC",
+      "tipo_original_comentario": "Múltipla Escolha",
+      "pergunta": "A principal saída do planejamento do escopo que decompõe hierarquicamente o trabalho é:",
+      "opcoes": [
+        "Cronograma",
+        "Orçamento",
+        "Estrutura Analítica do Projeto (WBS/EAP)",
+        "Registro de Riscos",
+        "Plano de Comunicação"
+      ],
+      "resposta": "C"
+    },
+    {
+      "id": "Gerenciamento_de_Projetos_33",
+      "disciplina": "Gerenciamento de Projetos",
+      "tipo": "MC",
+      "tipo_original_comentario": "Múltipla Escolha",
+      "pergunta": "Estimativa que usa um algoritmo para calcular custo ou duração com base em dados históricos e parâmetros do projeto é:",
+      "opcoes": [
+        "Análoga",
+        "Paramétrica",
+        "Bottom-up",
+        "Três Pontos",
+        "Delphi"
+      ],
+      "resposta": "B"
+    },
+    {
+      "id": "Gerenciamento_de_Projetos_34",
+      "disciplina": "Gerenciamento de Projetos",
+      "tipo": "VF",
+      "tipo_original_comentario": "Verdadeiro/Falso",
+      "pergunta": "Julgue a afirmação a seguir como verdadeira (V) ou falsa (F):",
+      "vfStatements": [
+        "Um cronograma de projeto apenas lista as datas de início e fim das tarefas."
+      ],
+      "opcoes": [
+        "V",
+        "F"
+      ],
+      "resposta": "B"
+    },
+    {
+      "id": "Gerenciamento_de_Projetos_35",
+      "disciplina": "Gerenciamento de Projetos",
+      "tipo": "MC",
+      "tipo_original_comentario": "Múltipla Escolha",
+      "pergunta": "A linha de base de custos é usada para:",
+      "opcoes": [
+        "Definir os requisitos de qualidade.",
+        "Comparar o desempenho real dos custos com o planejado.",
+        "Listar todos os riscos do projeto.",
+        "Alocar membros da equipe.",
+        "Aprovar mudanças no escopo."
+      ],
+      "resposta": "B"
+    },
+    {
+      "id": "Gerenciamento_de_Projetos_36",
+      "disciplina": "Gerenciamento de Projetos",
+      "tipo": "MC",
+      "tipo_original_comentario": "Múltipla Escolha",
+      "pergunta": "Qual o propósito de definir variáveis de planejamento como abordagem de desenvolvimento, entregáveis e requisitos organizacionais?",
+      "opcoes": [
+        "Aumentar a burocracia.",
+        "Influenciar como o planejamento será conduzido.",
+        "Limitar a comunicação da equipe.",
+        "Garantir que o orçamento seja excedido.",
+        "Reduzir o número de partes interessadas."
+      ],
+      "resposta": "B"
+    },
+    {
+      "id": "Gerenciamento_de_Projetos_37",
+      "disciplina": "Gerenciamento de Projetos",
+      "tipo": "MC",
+      "tipo_original_comentario": "Múltipla Escolha",
+      "pergunta": "Gerenciar o fluxo de trabalho e garantir que os processos estabelecidos sejam seguidos faz parte de qual área de foco?",
+      "opcoes": [
+        "Domínio da Entrega",
+        "Domínio do Trabalho do Projeto",
+        "Domínio do Planejamento",
+        "Domínio da Equipe",
+        "Domínio da Medição"
+      ],
+      "resposta": "B"
+    },
+    {
+      "id": "Gerenciamento_de_Projetos_38",
+      "disciplina": "Gerenciamento de Projetos",
+      "tipo": "MC",
+      "tipo_original_comentario": "Múltipla Escolha",
+      "pergunta": "A gestão do conhecimento explícito e tácito é importante para:",
+      "opcoes": [
+        "Aumentar a dependência de indivíduos específicos.",
+        "Perder informações críticas após o término do projeto.",
+        "Facilitar o aprendizado contínuo e a reutilização do conhecimento.",
+        "Criar silos de informação.",
+        "Dificultar a integração de novos membros na equipe."
+      ],
+      "resposta": "C"
+    },
+    {
+      "id": "Gerenciamento_de_Projetos_39",
+      "disciplina": "Gerenciamento de Projetos",
+      "tipo": "VF",
+      "tipo_original_comentario": "Verdadeiro/Falso",
+      "pergunta": "Julgue a afirmação a seguir como verdadeira (V) ou falsa (F):",
+      "vfStatements": [
+        "Processos eficientes garantem que o mínimo de recursos e tempo seja gasto para entregar o valor pretendido."
+      ],
+      "opcoes": [
+        "V",
+        "F"
+      ],
+      "resposta": "A"
+    },
+    {
+      "id": "Gerenciamento_de_Projetos_40",
+      "disciplina": "Gerenciamento de Projetos",
+      "tipo": "MC",
+      "tipo_original_comentario": "Múltipla Escolha",
+      "pergunta": "Manter o foco da equipe do projeto envolve:",
+      "opcoes": [
+        "Permitir múltiplas prioridades concorrentes.",
+        "Minimizar distrações e alinhar o trabalho com os objetivos.",
+        "Aumentar o número de reuniões não relacionadas.",
+        "Ignorar a comunicação das partes interessadas.",
+        "Adicionar trabalho não planejado constantemente."
+      ],
+      "resposta": "B"
+    },
+    {
+      "id": "Gerenciamento_de_Projetos_41",
+      "disciplina": "Gerenciamento de Projetos",
+      "tipo": "MC",
+      "tipo_original_comentario": "Múltipla Escolha",
+      "pergunta": "A gestão eficaz de recursos físicos inclui:",
+      "opcoes": [
+        "Ignorar a logística e o inventário.",
+        "Planejar aquisição, monitorar utilização e garantir disponibilidade.",
+        "Usar recursos de forma ineficiente.",
+        "Não se preocupar com a manutenção de equipamentos.",
+        "Comprar materiais sem considerar o cronograma."
+      ],
+      "resposta": "B"
+    },
+    {
+      "id": "Gerenciamento_de_Projetos_42",
+      "disciplina": "Gerenciamento de Projetos",
+      "tipo": "MC",
+      "tipo_original_comentario": "Múltipla Escolha",
+      "pergunta": "Qual a principal diferença entre 'entrega de valor' e 'entrega de escopo'?",
+      "opcoes": [
+        "Não há diferença.",
+        "Entrega de valor foca no benefício e resultado, enquanto entrega de escopo foca nos produtos/serviços definidos.",
+        "Entrega de escopo é mais importante que entrega de valor.",
+        "Entrega de valor só se aplica a projetos ágeis.",
+        "Entrega de escopo ignora os requisitos."
+      ],
+      "resposta": "B"
+    },
+    {
+      "id": "Gerenciamento_de_Projetos_43",
+      "disciplina": "Gerenciamento de Projetos",
+      "tipo": "MC",
+      "tipo_original_comentario": "Múltipla Escolha",
+      "pergunta": "A 'Definição de Pronto' (Definition of Done - DoD) ajuda a garantir qual aspecto da entrega?",
+      "opcoes": [
+        "O orçamento",
+        "O cronograma",
+        "A comunicação",
+        "A Qualidade e completude do entregável",
+        "O engajamento da equipe"
+      ],
+      "resposta": "D"
+    },
+    {
+      "id": "Gerenciamento_de_Projetos_44",
+      "disciplina": "Gerenciamento de Projetos",
+      "tipo": "VF",
+      "tipo_original_comentario": "Verdadeiro/Falso",
+      "pergunta": "Julgue a afirmação a seguir como verdadeira (V) ou falsa (F):",
+      "vfStatements": [
+        "Em projetos com entregas incrementais, o valor para o cliente só é percebido após a última entrega."
+      ],
+      "opcoes": [
+        "V",
+        "F"
+      ],
+      "resposta": "B"
+    },
+    {
+      "id": "Gerenciamento_de_Projetos_45",
+      "disciplina": "Gerenciamento de Projetos",
+      "tipo": "MC",
+      "tipo_original_comentario": "Múltipla Escolha",
+      "pergunta": "Custos associados à prevenção, avaliação e falhas (internas e externas) são categorizados como:",
+      "opcoes": [
+        "Custo de Oportunidade",
+        "Custo Fixo",
+        "Custo Variável",
+        "Custo da Qualidade (COQ)",
+        "Custo Afundado (Sunk Cost)"
+      ],
+      "resposta": "D"
+    },
+    {
+      "id": "Gerenciamento_de_Projetos_46",
+      "disciplina": "Gerenciamento de Projetos",
+      "tipo": "MC",
+      "tipo_original_comentario": "Múltipla Escolha",
+      "pergunta": "Gerenciar requisitos de forma eficaz durante a entrega envolve:",
+      "opcoes": [
+        "Ignorar requisitos que surgem após o planejamento inicial.",
+        "Priorizar, rastrear e garantir que os requisitos sejam atendidos pelas entregas.",
+        "Aceitar todos os requisitos sem análise.",
+        "Documentar requisitos apenas verbalmente.",
+        "Impedir qualquer mudança nos requisitos."
+      ],
+      "resposta": "B"
+    },
+    {
+      "id": "Gerenciamento_de_Projetos_47",
+      "disciplina": "Gerenciamento de Projetos",
+      "tipo": "MC",
+      "tipo_original_comentario": "Múltipla Escolha",
+      "pergunta": "Por que é importante estabelecer métricas eficazes (SMART ou similar)?",
+      "opcoes": [
+        "Para gerar relatórios longos e complexos.",
+        "Para garantir que as medições sejam relevantes, acionáveis e conectadas aos objetivos.",
+        "Para dificultar o acompanhamento do progresso.",
+        "Para medir apenas aspectos fáceis de quantificar.",
+        "Para satisfazer apenas a curiosidade da equipe."
+      ],
+      "resposta": "B"
+    },
+    {
+      "id": "Gerenciamento_de_Projetos_48",
+      "disciplina": "Gerenciamento de Projetos",
+      "tipo": "MC",
+      "tipo_original_comentario": "Múltipla Escolha",
+      "pergunta": "O que é 'Análise de Valor Agregado' (Earned Value Analysis - EVA)?",
+      "opcoes": [
+        "Uma técnica para priorizar o backlog.",
+        "Um método para avaliar ideias em brainstorming.",
+        "Um método que integra escopo, cronograma e recursos para medir o desempenho e progresso do projeto.",
+        "Uma forma de mapear o fluxo de valor.",
+        "Uma técnica de resolução de conflitos."
+      ],
+      "resposta": "C"
+    },
+    {
+      "id": "Gerenciamento_de_Projetos_49",
+      "disciplina": "Gerenciamento de Projetos",
+      "tipo": "VF",
+      "tipo_original_comentario": "Verdadeiro/Falso",
+      "pergunta": "Julgue a afirmação a seguir como verdadeira (V) ou falsa (F):",
+      "vfStatements": [
+        "Apresentar informações de medição visualmente através de dashboards e gráficos geralmente dificulta a compreensão pelas partes interessadas."
+      ],
+      "opcoes": [
+        "V",
+        "F"
+      ],
+      "resposta": "B"
+    },
+    {
+      "id": "Gerenciamento_de_Projetos_50",
+      "disciplina": "Gerenciamento de Projetos",
+      "tipo": "MC",
+      "tipo_original_comentario": "Múltipla Escolha",
+      "pergunta": "Qual é um exemplo de 'métrica de vaidade' (vanity metric)?",
+      "opcoes": [
+        "Custo por aquisição de cliente.",
+        "Taxa de conclusão de tarefas dentro do prazo.",
+        "Número total de 'likes' em uma página sem correlação com vendas.",
+        "Índice de Desempenho de Custo (CPI).",
+        "Número de defeitos críticos encontrados."
+      ],
+      "resposta": "C"
+    },
+    {
+      "id": "Gerenciamento_de_Projetos_51",
+      "disciplina": "Gerenciamento de Projetos",
+      "tipo": "MC",
+      "tipo_original_comentario": "Múltipla Escolha",
+      "pergunta": "Resolver problemas de desempenho identificados através da medição envolve:",
+      "opcoes": [
+        "Ignorar os dados e continuar como planejado.",
+        "Analisar a causa raiz, desenvolver e implementar ações corretivas ou preventivas.",
+        "Culpar a equipe por resultados ruins.",
+        "Alterar as metas para que pareçam ter sido atingidas.",
+        "Parar toda a coleta de métricas."
+      ],
+      "resposta": "B"
+    },
+    {
+      "id": "Gerenciamento_de_Projetos_52",
+      "disciplina": "Gerenciamento de Projetos",
+      "tipo": "MC",
+      "tipo_original_comentario": "Múltipla Escolha",
+      "pergunta": "Qual a diferença fundamental entre 'risco' e 'incerteza geral'?",
+      "opcoes": [
+        "Risco se refere apenas a eventos negativos.",
+        "Incerteza geral é mais ampla, enquanto risco é uma incerteza que, se ocorrer, afeta os objetivos.",
+        "Incerteza só existe em projetos adaptativos.",
+        "Risco só pode ser gerenciado, incerteza não.",
+        "Não há diferença."
+      ],
+      "resposta": "B"
+    },
+    {
+      "id": "Gerenciamento_de_Projetos_53",
+      "disciplina": "Gerenciamento de Projetos",
+      "tipo": "MC",
+      "tipo_original_comentario": "Múltipla Escolha",
+      "pergunta": "Ambiguidades em um projeto podem surgir de:",
+      "opcoes": [
+        "Cronogramas muito detalhados.",
+        "Falta de clareza, múltiplas opções ou eventos/situações subjetivas.",
+        "Excesso de recursos disponíveis.",
+        "Requisitos perfeitamente definidos.",
+        "Comunicação excessiva."
+      ],
+      "resposta": "B"
+    },
+    {
+      "id": "Gerenciamento_de_Projetos_54",
+      "disciplina": "Gerenciamento de Projetos",
+      "tipo": "VF",
+      "tipo_original_comentario": "Verdadeiro/Falso",
+      "pergunta": "Julgue a afirmação a seguir como verdadeira (V) ou falsa (F):",
+      "vfStatements": [
+        "A complexidade de um projeto é determinada apenas pelo número de tarefas."
+      ],
+      "opcoes": [
+        "V",
+        "F"
+      ],
+      "resposta": "B"
+    },
+    {
+      "id": "Gerenciamento_de_Projetos_55",
+      "disciplina": "Gerenciamento de Projetos",
+      "tipo": "MC",
+      "tipo_original_comentario": "Múltipla Escolha",
+      "pergunta": "Qual estratégia de resposta a uma oportunidade envolve aumentar sua probabilidade ou impacto?",
+      "opcoes": [
+        "Aceitar",
+        "Compartilhar",
+        "Explorar",
+        "Melhorar (Enhance)",
+        "Escalar"
+      ],
+      "resposta": "D"
+    },
+    {
+      "id": "Gerenciamento_de_Projetos_56",
+      "disciplina": "Gerenciamento de Projetos",
+      "tipo": "MC",
+      "tipo_original_comentario": "Múltipla Escolha",
+      "pergunta": "Usar protótipos e experimentos para reduzir a incerteza sobre requisitos ou abordagens técnicas é uma forma de lidar com:",
+      "opcoes": [
+        "Risco conhecido",
+        "Ambiguidade",
+        "Volatilidade",
+        "Complexidade sistêmica",
+        "Ameaças externas"
+      ],
+      "resposta": "B"
+    },
+    {
+      "id": "Gerenciamento_de_Projetos_57",
+      "disciplina": "Gerenciamento de Projetos",
+      "tipo": "MC",
+      "tipo_original_comentario": "Múltipla Escolha",
+      "pergunta": "A capacidade de um projeto ou equipe de se adaptar e se recuperar rapidamente de mudanças ou contratempos inesperados é chamada de:",
+      "opcoes": [
+        "Planejamento",
+        "Resiliência",
+        "Mitigação",
+        "Governança",
+        "Previsão"
+      ],
+      "resposta": "B"
+    },
+    {
+      "id": "Gerenciamento_de_Projetos_58",
+      "disciplina": "Gerenciamento de Projetos",
+      "tipo": "MC",
+      "tipo_original_comentario": "Múltipla Escolha",
+      "pergunta": "Por que a adaptação é considerada um processo contínuo?",
+      "opcoes": [
+        "Porque os padrões de gerenciamento de projetos mudam diariamente.",
+        "Porque o contexto do projeto, as partes interessadas e o ambiente podem mudar, exigindo ajustes.",
+        "Porque a equipe gosta de mudar os processos constantemente.",
+        "Porque é obrigatório refazer todo o plano a cada semana.",
+        "Porque a adaptação inicial é sempre perfeita."
+      ],
+      "resposta": "B"
+    },
+    {
+      "id": "Gerenciamento_de_Projetos_59",
+      "disciplina": "Gerenciamento de Projetos",
+      "tipo": "VF",
+      "tipo_original_comentario": "Verdadeiro/Falso",
+      "pergunta": "Julgue a afirmação a seguir como verdadeira (V) ou falsa (F):",
+      "vfStatements": [
+        "Adaptar significa que a equipe do projeto pode ignorar completamente as políticas e a governança organizacional."
+      ],
+      "opcoes": [
+        "V",
+        "F"
+      ],
+      "resposta": "B"
+    },
+    {
+      "id": "Gerenciamento_de_Projetos_60",
+      "disciplina": "Gerenciamento de Projetos",
+      "tipo": "MC",
+      "tipo_original_comentario": "Múltipla Escolha",
+      "pergunta": "Ao adaptar a abordagem de desenvolvimento (preditiva, adaptativa, híbrida), qual fator é MENOS relevante?",
+      "opcoes": [
+        "A natureza do produto/serviço.",
+        "O nível de incerteza dos requisitos.",
+        "A cultura organizacional.",
+        "A preferência pessoal de um único membro da equipe.",
+        "A necessidade de entregas frequentes."
+      ],
+      "resposta": "D"
+    },
+    {
+      "id": "Gerenciamento_de_Projetos_61",
+      "disciplina": "Gerenciamento de Projetos",
+      "tipo": "MC",
+      "tipo_original_comentario": "Múltipla Escolha",
+      "pergunta": "Adaptar o engajamento das partes interessadas pode envolver:",
+      "opcoes": [
+        "Comunicar-se da mesma forma com todos.",
+        "Ajustar a frequência, formato e nível de detalhe da comunicação para diferentes grupos.",
+        "Limitar o acesso das partes interessadas à equipe.",
+        "Ignorar o feedback das partes interessadas.",
+        "Usar apenas comunicação formal por escrito."
+      ],
+      "resposta": "B"
+    },
+    {
+      "id": "Gerenciamento_de_Projetos_62",
+      "disciplina": "Gerenciamento de Projetos",
+      "tipo": "MC",
+      "tipo_original_comentario": "Múltipla Escolha",
+      "pergunta": "Modelos de liderança situacional (como Hersey-Blanchard ou OSCAR) ajudam os líderes a:",
+      "opcoes": [
+        "Calcular o orçamento exato do projeto.",
+        "Escolher o estilo de liderança apropriado com base na situação e na maturidade da equipe.",
+        "Definir o escopo técnico detalhado.",
+        "Gerenciar o log de riscos.",
+        "Criar o cronograma do projeto."
+      ],
+      "resposta": "B"
+    },
+    {
+      "id": "Gerenciamento_de_Projetos_63",
+      "disciplina": "Gerenciamento de Projetos",
+      "tipo": "MC",
+      "tipo_original_comentario": "Múltipla Escolha",
+      "pergunta": "Mapas mentais, matrizes de priorização e painéis Kanban são exemplos de:",
+      "opcoes": [
+        "Modelos",
+        "Métodos",
+        "Artefatos",
+        "Princípios",
+        "Domínios de Desempenho"
+      ],
+      "resposta": "C"
+    },
+    {
+      "id": "Gerenciamento_de_Projetos_64",
+      "disciplina": "Gerenciamento de Projetos",
+      "tipo": "VF",
+      "tipo_original_comentario": "Verdadeiro/Falso",
+      "pergunta": "Julgue a afirmação a seguir como verdadeira (V) ou falsa (F):",
+      "vfStatements": [
+        "Um 'método' é uma estratégia de pensamento, enquanto um 'modelo' é um meio para alcançar um resultado."
+      ],
+      "opcoes": [
+        "V",
+        "F"
+      ],
+      "resposta": "B"
+    },
+    {
+      "id": "Gerenciamento_de_Projetos_65",
+      "disciplina": "Gerenciamento de Projetos",
+      "tipo": "MC",
+      "tipo_original_comentario": "Múltipla Escolha",
+      "pergunta": "Qual a principal finalidade da seção 'Modelos, Métodos e Artefatos' em guias de gerenciamento de projetos modernos?",
+      "opcoes": [
+        "Prescrever exatamente quais itens usar em cada projeto.",
+        "Fornecer uma lista exaustiva de todas as opções existentes.",
+        "Oferecer um conjunto de opções comuns que as equipes podem adaptar e usar.",
+        "Substituir a necessidade de adaptação.",
+        "Focar apenas em ferramentas de software."
+      ],
+      "resposta": "C"
+    },
+    {
+      "id": "Gerenciamento_de_Projetos_66",
+      "disciplina": "Gerenciamento de Projetos",
+      "tipo": "MC",
+      "tipo_original_comentario": "Múltipla Escolha",
+      "pergunta": "Um 'Registro de Lições Aprendidas' é um exemplo de qual categoria?",
+      "opcoes": [
+        "Modelo",
+        "Método",
+        "Artefato (Log/Registro)",
+        "Princípio",
+        "Domínio"
+      ],
+      "resposta": "C"
+    },
+    {
+      "id": "Gerenciamento_de_Projetos_67",
+      "disciplina": "Gerenciamento de Projetos",
+      "tipo": "MC",
+      "tipo_original_comentario": "Múltipla Escolha",
+      "pergunta": "Reuniões diárias (Daily Standups) e Retrospectivas são exemplos de:",
+      "opcoes": [
+        "Modelos",
+        "Métodos (Reuniões/Eventos)",
+        "Artefatos",
+        "Linhas de Base",
+        "Estruturas Organizacionais"
+      ],
+      "resposta": "B"
+    },
+    {
+      "id": "Gerenciamento_de_Projetos_68",
+      "disciplina": "Gerenciamento de Projetos",
+      "tipo": "MC",
+      "tipo_original_comentario": "Múltipla Escolha",
+      "pergunta": "Qual o propósito principal de uma Estrutura Analítica do Projeto (WBS/EAP)?",
+      "opcoes": [
+        "Listar todas as partes interessadas.",
+        "Decompor o escopo total do projeto em entregas menores e gerenciáveis.",
+        "Detalhar o orçamento de cada fase.",
+        "Identificar todos os riscos possíveis.",
+        "Definir a sequência exata das tarefas."
+      ],
+      "resposta": "B"
+    },
+    {
+      "id": "Gerenciamento_de_Projetos_69",
+      "disciplina": "Gerenciamento de Projetos",
+      "tipo": "VF",
+      "tipo_original_comentario": "Verdadeiro/Falso",
+      "pergunta": "Julgue a afirmação a seguir como verdadeira (V) ou falsa (F):",
+      "vfStatements": [
+        "A estimativa de três pontos (PERT) considera apenas a estimativa mais provável."
+      ],
+      "opcoes": [
+        "V",
+        "F"
+      ],
+      "resposta": "B"
+    },
+    {
+      "id": "Gerenciamento_de_Projetos_70",
+      "disciplina": "Gerenciamento de Projetos",
+      "tipo": "MC",
+      "tipo_original_comentario": "Múltipla Escolha",
+      "pergunta": "A 'Matriz de Responsabilidade' (ex: RACI) é usada para:",
+      "opcoes": [
+        "Acompanhar o orçamento.",
+        "Definir a sequência das atividades.",
+        "Clarificar papéis e responsabilidades para tarefas ou entregas.",
+        "Avaliar a qualidade do produto.",
+        "Gerenciar o backlog."
+      ],
+      "resposta": "C"
+    },
+    {
+      "id": "Gerenciamento_de_Projetos_71",
+      "disciplina": "Gerenciamento de Projetos",
+      "tipo": "MC",
+      "tipo_original_comentario": "Múltipla Escolha",
+      "pergunta": "A técnica de 'Fast Tracking' no gerenciamento de cronograma envolve:",
+      "opcoes": [
+        "Adicionar mais recursos às tarefas.",
+        "Reduzir o escopo do projeto.",
+        "Realizar atividades em paralelo que normalmente seriam sequenciais.",
+        "Aumentar a duração das tarefas.",
+        "Usar estimativas mais otimistas."
+      ],
+      "resposta": "C"
+    },
+    {
+      "id": "Gerenciamento_de_Projetos_72",
+      "disciplina": "Gerenciamento de Projetos",
+      "tipo": "MC",
+      "tipo_original_comentario": "Múltipla Escolha",
+      "pergunta": "Qual documento formalmente autoriza o início de um projeto e concede autoridade ao gerente de projeto?",
+      "opcoes": [
+        "Plano de Gerenciamento do Projeto",
+        "Registro das Partes Interessadas",
+        "Termo de Abertura do Projeto (Project Charter)",
+        "WBS/EAP",
+        "Registro de Riscos"
+      ],
+      "resposta": "C"
+    },
+    {
+      "id": "Gerenciamento_de_Projetos_73",
+      "disciplina": "Gerenciamento de Projetos",
+      "tipo": "VF",
+      "tipo_original_comentario": "Verdadeiro/Falso",
+      "pergunta": "Julgue a afirmação a seguir como verdadeira (V) ou falsa (F):",
+      "vfStatements": [
+        "A gestão de mudanças em projetos adaptativos geralmente envolve um comitê formal de controle de mudanças para cada pequena alteração no backlog."
+      ],
+      "opcoes": [
+        "V",
+        "F"
+      ],
+      "resposta": "B"
+    },
+    {
+      "id": "Gerenciamento_de_Projetos_74",
+      "disciplina": "Gerenciamento de Projetos",
+      "tipo": "MC",
+      "tipo_original_comentario": "Múltipla Escolha",
+      "pergunta": "O 'Caminho Crítico' em um cronograma de projeto representa:",
+      "opcoes": [
+        "As tarefas mais fáceis de completar.",
+        "A sequência de atividades que determina a menor duração possível do projeto.",
+        "As tarefas com o maior custo.",
+        "As atividades que podem ser atrasadas sem impactar a data final.",
+        "As tarefas gerenciadas por membros específicos da equipe."
+      ],
+      "resposta": "B"
+    },
+    {
+      "id": "Gerenciamento_de_Projetos_75",
+      "disciplina": "Gerenciamento de Projetos",
+      "tipo": "MC",
+      "tipo_original_comentario": "Múltipla Escolha",
+      "pergunta": "Qual método de coleta de dados envolve reunir especialistas para prever resultados futuros através de rodadas anônimas de questionários?",
+      "opcoes": [
+        "Brainstorming",
+        "Entrevistas",
+        "Técnica Delphi",
+        "Análise de Causa Raiz",
+        "Grupo Focal"
+      ],
+      "resposta": "C"
+    },
+    {
+      "id": "Gerenciamento_de_Projetos_76",
+      "disciplina": "Gerenciamento de Projetos",
+      "tipo": "MC",
+      "tipo_original_comentario": "Múltipla Escolha",
+      "pergunta": "O que significa 'Gold Plating' (banho de ouro) em gerenciamento de projetos?",
+      "opcoes": [
+        "Usar materiais da mais alta qualidade possível.",
+        "Entregar exatamente o que foi solicitado.",
+        "Adicionar funcionalidades extras não solicitadas, pensando em agradar o cliente.",
+        "Concluir o projeto antes do prazo.",
+        "Manter o projeto estritamente dentro do orçamento."
+      ],
+      "resposta": "C"
+    },
+    {
+      "id": "Gerenciamento_de_Projetos_77",
+      "disciplina": "Gerenciamento de Projetos",
+      "tipo": "VF",
+      "tipo_original_comentario": "Verdadeiro/Falso",
+      "pergunta": "Julgue a afirmação a seguir como verdadeira (V) ou falsa (F):",
+      "vfStatements": [
+        "Gerenciar as expectativas das partes interessadas é menos importante do que gerenciar o cronograma."
+      ],
+      "opcoes": [
+        "V",
+        "F"
+      ],
+      "resposta": "B"
+    },
+    {
+      "id": "Gerenciamento_de_Projetos_78",
+      "disciplina": "Gerenciamento de Projetos",
+      "tipo": "MC",
+      "tipo_original_comentario": "Múltipla Escolha",
+      "pergunta": "Qual ferramenta visual é frequentemente usada em abordagens ágeis para limitar o trabalho em progresso (WIP) e visualizar o fluxo?",
+      "opcoes": [
+        "Gráfico de Gantt",
+        "WBS/EAP",
+        "Quadro Kanban",
+        "Matriz RACI",
+        "Diagrama de Rede"
+      ],
+      "resposta": "C"
+    },
+    {
+      "id": "Gerenciamento_de_Projetos_79",
+      "disciplina": "Gerenciamento de Projetos",
+      "tipo": "MC",
+      "tipo_original_comentario": "Múltipla Escolha",
+      "pergunta": "A 'Reserva de Contingência' é alocada para lidar com quais tipos de riscos?",
+      "opcoes": [
+        "Riscos desconhecidos (unknown unknowns)",
+        "Riscos identificados e aceitos (known unknowns)",
+        "Apenas oportunidades",
+        "Mudanças de escopo solicitadas pelo cliente",
+        "Custos operacionais normais"
+      ],
+      "resposta": "B"
+    },
+    {
+      "id": "Gerenciamento_de_Projetos_80",
+      "disciplina": "Gerenciamento de Projetos",
+      "tipo": "VF",
+      "tipo_original_comentario": "Verdadeiro/Falso",
+      "pergunta": "Julgue a afirmação a seguir como verdadeira (V) ou falsa (F):",
+      "vfStatements": [
+        "A 'velocidade' (velocity) de uma equipe em abordagens ágeis é uma medida direta do valor de negócio entregue."
+      ],
+      "opcoes": [
+        "V",
+        "F"
+      ],
+      "resposta": "B"
+    },
+    {
+      "id": "Gerenciamento_de_Projetos_81",
+      "disciplina": "Gerenciamento de Projetos",
+      "tipo": "MC",
+      "tipo_original_comentario": "Múltipla Escolha",
+      "pergunta": "Qual modelo de comunicação enfatiza a importância da redundância e do feedback para superar o 'ruído'?",
+      "opcoes": [
+        "Modelo Linear (Shannon-Weaver)",
+        "Modelo Interacional",
+        "Modelo Transacional",
+        "Modelo de Lasswell",
+        "Modelo de Berlo"
+      ],
+      "resposta": "A"
+    },
+    {
+      "id": "Gerenciamento_de_Projetos_82",
+      "disciplina": "Gerenciamento de Projetos",
+      "tipo": "MC",
+      "tipo_original_comentario": "Múltipla Escolha",
+      "pergunta": "A prática de dividir o projeto em fases distintas (ex: iniciação, planejamento, execução, encerramento) é mais comum em qual abordagem?",
+      "opcoes": [
+        "Adaptativa",
+        "Ágil",
+        "Preditiva",
+        "Incremental",
+        "Híbrida"
+      ],
+      "resposta": "C"
+    },
+    {
+      "id": "Gerenciamento_de_Projetos_83",
+      "disciplina": "Gerenciamento de Projetos",
+      "tipo": "MC",
+      "tipo_original_comentario": "Múltipla Escolha",
+      "pergunta": "O que é um 'Stakeholder Register' (Registro das Partes Interessadas)?",
+      "opcoes": [
+        "Um plano detalhado de comunicação.",
+        "Um documento que identifica as partes interessadas e informações relevantes sobre elas.",
+        "Um contrato formal com fornecedores.",
+        "Um relatório de status semanal.",
+        "Uma lista de riscos do projeto."
+      ],
+      "resposta": "B"
+    },
+    {
+      "id": "Gerenciamento_de_Projetos_84",
+      "disciplina": "Gerenciamento de Projetos",
+      "tipo": "VF",
+      "tipo_original_comentario": "Verdadeiro/Falso",
+      "pergunta": "Julgue a afirmação a seguir como verdadeira (V) ou falsa (F):",
+      "vfStatements": [
+        "'Tailoring' (Adaptação) significa escolher aleatoriamente quais processos de gerenciamento de projetos usar."
+      ],
+      "opcoes": [
+        "V",
+        "F"
+      ],
+      "resposta": "B"
+    },
+    {
+      "id": "Gerenciamento_de_Projetos_85",
+      "disciplina": "Gerenciamento de Projetos",
+      "tipo": "MC",
+      "tipo_original_comentario": "Múltipla Escolha",
+      "pergunta": "Qual técnica envolve analisar um problema decompondo-o em suas causas potenciais, muitas vezes usando um diagrama visual?",
+      "opcoes": [
+        "Brainstorming",
+        "Análise de Causa Raiz (ex: Diagrama de Ishikawa/Espinha de Peixe)",
+        "Técnica Delphi",
+        "Análise SWOT",
+        "Estimativa Análoga"
+      ],
+      "resposta": "B"
+    },
+    {
+      "id": "Gerenciamento_de_Projetos_86",
+      "disciplina": "Gerenciamento de Projetos",
+      "tipo": "MC",
+      "tipo_original_comentario": "Múltipla Escolha",
+      "pergunta": "Qual é a principal desvantagem de uma estrutura organizacional puramente funcional para gerenciar projetos?",
+      "opcoes": [
+        "Clareza excessiva sobre a autoridade do gerente de projeto.",
+        "Falta de especialização técnica.",
+        "O projeto pode ter baixa prioridade e dificuldade em obter recursos de diferentes departamentos.",
+        "Comunicação excessivamente eficiente entre departamentos.",
+        "Foco demasiado no projeto em detrimento das operações funcionais."
+      ],
+      "resposta": "C"
+    },
+    {
+      "id": "Gerenciamento_de_Projetos_87",
+      "disciplina": "Gerenciamento de Projetos",
+      "tipo": "VF",
+      "tipo_original_comentario": "Verdadeiro/Falso",
+      "pergunta": "Julgue a afirmação a seguir como verdadeira (V) ou falsa (F):",
+      "vfStatements": [
+        "Um 'System for Value Delivery' (Sistema para Entrega de Valor) inclui apenas os projetos de uma organização."
+      ],
+      "opcoes": [
+        "V",
+        "F"
+      ],
+      "resposta": "B"
+    },
+    {
+      "id": "Gerenciamento_de_Projetos_88",
+      "disciplina": "Gerenciamento de Projetos",
+      "tipo": "MC",
+      "tipo_original_comentario": "Múltipla Escolha",
+      "pergunta": "Reuniões de 'Retrospectiva', comuns em abordagens ágeis, têm como principal objetivo:",
+      "opcoes": [
+        "Planejar a próxima iteração.",
+        "Demonstrar o trabalho concluído para as partes interessadas.",
+        "Identificar o que funcionou bem, o que não funcionou e como melhorar no futuro.",
+        "Atribuir culpas por problemas ocorridos.",
+        "Revisar o orçamento do projeto."
+      ],
+      "resposta": "C"
+    },
+    {
+      "id": "Gerenciamento_de_Projetos_89",
+      "disciplina": "Gerenciamento de Projetos",
+      "tipo": "MC",
+      "tipo_original_comentario": "Múltipla Escolha",
+      "pergunta": "Qual domínio de desempenho se concentra em estabelecer e manter os processos necessários para realizar o trabalho do projeto?",
+      "opcoes": [
+        "Planejamento",
+        "Entrega",
+        "Trabalho do Projeto",
+        "Medição",
+        "Equipe"
+      ],
+      "resposta": "C"
+    },
+    {
+      "id": "Gerenciamento_de_Projetos_90",
+      "disciplina": "Gerenciamento de Projetos",
+      "tipo": "MC",
+      "tipo_original_comentario": "Múltipla Escolha",
+      "pergunta": "A 'Matriz de Probabilidade e Impacto' é uma ferramenta usada em qual área?",
+      "opcoes": [
+        "Gerenciamento da Qualidade",
+        "Gerenciamento de Custos",
+        "Gerenciamento do Cronograma",
+        "Gerenciamento de Riscos",
+        "Gerenciamento da Comunicação"
+      ],
+      "resposta": "D"
+    },
+    {
+      "id": "Gerenciamento_de_Projetos_91",
+      "disciplina": "Gerenciamento de Projetos",
+      "tipo": "VF",
+      "tipo_original_comentario": "Verdadeiro/Falso",
+      "pergunta": "Julgue a afirmação a seguir como verdadeira (V) ou falsa (F):",
+      "vfStatements": [
+        "Em um projeto preditivo, o escopo detalhado é definido progressivamente ao longo de múltiplas iterações."
+      ],
+      "opcoes": [
+        "V",
+        "F"
+      ],
+      "resposta": "B"
+    },
+    {
+      "id": "Gerenciamento_de_Projetos_92",
+      "disciplina": "Gerenciamento de Projetos",
+      "tipo": "MC",
+      "tipo_original_comentario": "Múltipla Escolha",
+      "pergunta": "Qual princípio está mais diretamente relacionado à necessidade de garantir que o projeto permaneça alinhado aos objetivos estratégicos da organização?",
+      "opcoes": [
+        "Qualidade",
+        "Liderança",
+        "Colaboração",
+        "Foco no Valor",
+        "Administração (Stewardship)"
+      ],
+      "resposta": "D"
+    },
+    {
+      "id": "Gerenciamento_de_Projetos_93",
+      "disciplina": "Gerenciamento de Projetos",
+      "tipo": "MC",
+      "tipo_original_comentario": "Múltipla Escolha",
+      "pergunta": "Coletar requisitos das partes interessadas é uma atividade fundamental em qual domínio de desempenho?",
+      "opcoes": [
+        "Medição",
+        "Incerteza",
+        "Entrega",
+        "Equipe",
+        "Partes Interessadas"
+      ],
+      "resposta": "C"
+    },
+    {
+      "id": "Gerenciamento_de_Projetos_94",
+      "disciplina": "Gerenciamento de Projetos",
+      "tipo": "MC",
+      "tipo_original_comentario": "Múltipla Escolha",
+      "pergunta": "O uso de 'User Stories' (Histórias de Usuário) para descrever funcionalidades é comum em qual tipo de abordagem?",
+      "opcoes": [
+        "Preditiva",
+        "Cascata",
+        "Adaptativa / Ágil",
+        "Sequencial",
+        "Top-down"
+      ],
+      "resposta": "C"
+    },
+    {
+      "id": "Gerenciamento_de_Projetos_95",
+      "disciplina": "Gerenciamento de Projetos",
+      "tipo": "VF",
+      "tipo_original_comentario": "Verdadeiro/Falso",
+      "pergunta": "Julgue a afirmação a seguir como verdadeira (V) ou falsa (F):",
+      "vfStatements": [
+        "O gerenciamento de projetos eficaz garante que todos os projetos sejam concluídos exatamente dentro do orçamento e prazo originais, sem exceções."
+      ],
+      "opcoes": [
+        "V",
+        "F"
+      ],
+      "resposta": "B"
+    },
+    {
+      "id": "Gerenciamento_de_Projetos_96",
+      "disciplina": "Gerenciamento de Projetos",
+      "tipo": "MC",
+      "tipo_original_comentario": "Múltipla Escolha",
+      "pergunta": "A capacidade de uma equipe de projeto de se auto-organizar é mais enfatizada em qual abordagem?",
+      "opcoes": [
+        "Preditiva",
+        "Formal",
+        "Hierárquica",
+        "Adaptativa / Ágil",
+        "Top-down"
+      ],
+      "resposta": "D"
+    },
+    {
+      "id": "Gerenciamento_de_Projetos_97",
+      "disciplina": "Gerenciamento de Projetos",
+      "tipo": "MC",
+      "tipo_original_comentario": "Múltipla Escolha",
+      "pergunta": "Qual artefato documenta as premissas e restrições identificadas durante o planejamento do projeto?",
+      "opcoes": [
+        "Termo de Abertura",
+        "Registro de Riscos",
+        "Log de Premissas (Assumption Log)",
+        "Plano de Gerenciamento do Projeto",
+        "Registro das Partes Interessadas"
+      ],
+      "resposta": "C"
+    },
+    {
+      "id": "Gerenciamento_de_Projetos_98",
+      "disciplina": "Gerenciamento de Projetos",
+      "tipo": "VF",
+      "tipo_original_comentario": "Verdadeiro/Falso",
+      "pergunta": "Julgue a afirmação a seguir como verdadeira (V) ou falsa (F):",
+      "vfStatements": [
+        "Um 'Programa' é um conjunto de projetos não relacionados gerenciados individualmente."
+      ],
+      "opcoes": [
+        "V",
+        "F"
+      ],
+      "resposta": "B"
+    },
+    {
+      "id": "Gerenciamento_de_Projetos_99",
+      "disciplina": "Gerenciamento de Projetos",
+      "tipo": "MC",
+      "tipo_original_comentario": "Múltipla Escolha",
+      "pergunta": "Qual é o objetivo da 'Gestão da Configuração' em um projeto?",
+      "opcoes": [
+        "Gerenciar as finanças do projeto.",
+        "Controlar as versões dos produtos e documentos do projeto.",
+        "Gerenciar a comunicação da equipe.",
+        "Alocar recursos para as tarefas.",
+        "Avaliar o desempenho da equipe."
+      ],
+      "resposta": "B"
+    },
+    {
+      "id": "Gerenciamento_de_Projetos_100",
+      "disciplina": "Gerenciamento de Projetos",
+      "tipo": "MC",
+      "tipo_original_comentario": "Múltipla Escolha",
+      "pergunta": "Que tipo de estrutura organizacional geralmente oferece ao gerente de projeto a maior autoridade?",
+      "opcoes": [
+        "Funcional",
+        "Matricial Fraca",
+        "Matricial Balanceada",
+        "Matricial Forte",
+        "Projetizada"
+      ],
+      "resposta": "E"
+    }
+  ]
+}

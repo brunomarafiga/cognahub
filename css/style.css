@@ -1,0 +1,1344 @@
+:root {
+    /* Nova Paleta Cognita Hub */
+    --cognita-bg-main: #0D1B2A; /* Azul Noite Profundo */
+    --cognita-bg-surface: #1B263B; /* Azul Ardósia Escuro */
+    --cognita-accent1: #E76F51; /* Laranja Queimado Vibrante */
+    --cognita-accent2: #A2D2FF; /* Azul Glacial Claro */
+    --cognita-text-primary: #F0F8FF; /* Branco Gelo */
+    --cognita-text-secondary: #BCCCDC; /* Cinza Azulado Claro */
+    --cognita-border-subtle: #2A3A4F; /* Borda sutil para cards e divisões */
+
+    /* Mantendo fontes e outras variáveis úteis */
+    --font-family-headings: 'Montserrat', sans-serif;
+    --font-family-body: 'Poppins', sans-serif;
+    --border-radius: 8px;
+    --border-radius-small: 4px;
+    --transition-speed: 0.25s ease-in-out;
+    --letter-spacing-buttons: 0.05em;
+
+    /* Sombras (podem ser ajustadas para a nova paleta) */
+    --elevation-1dp: 0px 2px 1px -1px rgba(0,0,0,0.2), 0px 1px 1px 0px rgba(0,0,0,0.14), 0px 1px 3px 0px rgba(0,0,0,0.12);
+    --elevation-2dp: 0px 3px 1px -2px rgba(0,0,0,0.2), 0px 2px 2px 0px rgba(0,0,0,0.14), 0px 1px 5px 0px rgba(0,0,0,0.12);
+    --elevation-4dp: 0px 2px 4px -1px rgba(0,0,0,0.2), 0px 4px 5px 0px rgba(0,0,0,0.14), 0px 1px 10px 0px rgba(0,0,0,0.12);
+    --elevation-8dp: 0px 5px 5px -3px rgba(0,0,0,0.2), 0px 8px 10px 1px rgba(0,0,0,0.14), 0px 3px 14px 2px rgba(0,0,0,0.12);
+}
+
+/* --- Reset Básico e Configurações Globais --- */
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+    font-size: 16px;
+}
+
+body {
+    font-family: var(--font-family-body);
+    background-color: var(--cognita-bg-main);
+    color: var(--cognita-text-primary);
+    line-height: 1.65;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.page-wrapper {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    overflow-x: hidden;
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px; /* Aumentado um pouco para layouts modernos */
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+a {
+    color: var(--cognita-accent1);
+    text-decoration: none;
+    transition: color var(--transition-speed);
+}
+
+a:hover, a:focus {
+    color: var(--cognita-accent2);
+    text-decoration: none; 
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: var(--font-family-headings);
+    font-weight: 700; /* Montserrat fica bem com peso maior */
+    line-height: 1.3;
+    margin-top: 0;
+    margin-bottom: 1.25rem;
+    color: var (--cognita-text-primary);
+}
+
+h1 {
+    font-size: clamp(2.25rem, 5vw, 3rem); /* Responsivo */
+    font-weight: 800; /* Mais destaque para H1 */
+    letter-spacing: -0.02em;
+}
+
+h2.section-title {
+    font-size: clamp(1.8rem, 4vw, 2.5rem);
+    text-align: center;
+    margin-bottom: 2rem; /* Espaço após o título da seção */
+    color: var(--cognita-text-primary);
+}
+
+p.section-intro {
+    text-align: center;
+    font-size: 1.1rem;
+    color: var (--cognita-text-secondary);
+    max-width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 3rem;
+}
+
+/* --- Cabeçalho --- */
+.main-navigation {
+    background-color: var(--cognita-bg-surface);
+    box-shadow: var(--elevation-4dp);
+    padding: 1rem 0;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    border-bottom: 1px solid var(--cognita-border-subtle);
+}
+
+.nav-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: 1.5rem; /* Ajustado */
+    font-weight: 700;
+    color: var(--cognita-text-primary);
+    display: flex;
+    align-items: center;
+    gap: 0.75rem; /* Espaço entre logo e texto */
+}
+.logo:hover, .logo:focus {
+    color: var(--cognita-text-primary);
+}
+
+.logo-ufpr {
+    height: 40px; /* Ajustado */
+    border-radius: var(--border-radius-small);
+}
+
+.site-nav ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+
+.site-nav li {
+    margin-left: 1.5rem; /* Ajustado */
+}
+
+.site-nav a.nav-link {
+    color: var(--cognita-text-secondary);
+    font-weight: 500;
+    padding: 0.5rem 0.75rem;
+    border-bottom: 3px solid transparent;
+    transition: color var(--transition-speed), border-bottom-color var(--transition-speed);
+    font-size: 0.95rem;
+}
+
+.site-nav a.nav-link:hover,
+.site-nav a.nav-link:focus,
+.site-nav a.nav-link.active {
+    color: var(--cognita-text-primary);
+    border-bottom-color: var(--cognita-accent1);
+}
+
+.nav-toggle {
+    display: none; /* Escondido em desktop */
+    background: none;
+    border: none;
+    color: var(--cognita-text-primary);
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+
+/* --- Hero Section --- */
+.hero-section {
+    background-color: var(--cognita-bg-main); /* Pode ser um gradiente ou imagem depois */
+    color: var(--cognita-text-primary);
+    padding: 5rem 0;
+    text-align: center;
+    border-bottom: 1px solid var(--cognita-border-subtle);
+}
+
+.hero-content .hero-title {
+    margin-bottom: 1rem;
+    font-weight: 800;
+}
+
+.hero-content .hero-subtitle {
+    font-size: 1.2rem;
+    font-weight: 300;
+    max-width: 750px;
+    margin: 0 auto 2.5rem auto;
+    color: var(--cognita-text-secondary);
+    line-height: 1.7;
+}
+
+.cta-button.hero-cta {
+    background-color: var(--cognita-accent1);
+    color: var(--cognita-text-primary); 
+    padding: 0.9rem 2.5rem;
+    border-radius: 50px;
+    font-weight: 700;
+    font-size: 1rem;
+    transition: background-color var(--transition-speed), transform var(--transition-speed), box-shadow var(--transition-speed);
+    display: inline-block;
+    text-transform: uppercase;
+    letter-spacing: var(--letter-spacing-buttons);
+    box-shadow: var(--elevation-2dp);
+    border: none;
+}
+
+.cta-button.hero-cta:hover, .cta-button.hero-cta:focus {
+    background-color: #d65f40; /* Laranja um pouco mais escuro */
+    transform: translateY(-3px) scale(1.03);
+    box-shadow: var(--elevation-8dp);
+}
+
+/* --- Estilos Gerais para Seções de Conteúdo --- */
+.content-section {
+    padding: 4rem 0;
+}
+
+.content-section:nth-child(odd) { /* Alternar fundo para algumas seções */
+    background-color: var(--cognita-bg-surface);
+    border-top: 1px solid var(--cognita-border-subtle);
+    border-bottom: 1px solid var(--cognita-border-subtle);
+}
+
+/* --- Seções de Conteúdo Principal --- */
+.site-main {
+    flex-grow: 1;
+    padding: 2.5rem 0;
+}
+
+.featured-quizzes,
+.benefits-section,
+.about-creator-section,
+.recursos {
+    padding: 3rem 0;
+}
+
+.featured-quizzes h2,
+.benefits-section h2,
+.about-creator-section h2,
+.recursos h2 {
+    text-align: center;
+    color: var(--spotify-text-primary);
+    margin-bottom: 2.5rem;
+}
+
+/* Seção de Recursos */
+.categorias {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 1.8rem;
+}
+
+.categoria {
+    background-color: var(--spotify-card-bg);
+    padding: 1.8rem;
+    border-radius: var(--border-radius);
+    box-shadow: var(--elevation-2dp);
+    display: flex;
+    flex-direction: column;
+}
+
+.categoria h3 {
+    color: var(--spotify-green);
+    margin-bottom: 1.2rem;
+    font-size: 1.4rem;
+}
+
+.lista-recursos {
+    flex-grow: 1; /* Faz a lista ocupar espaço */
+    display: flex;
+    flex-direction: column;
+}
+
+.lista-recursos ul {
+    list-style: none; /* Remove as bolinhas/marcadores de lista */
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 0.35rem; /* Espaçamento vertical entre os itens da lista ajustado */
+}
+
+.recurso-item {
+    transition: background-color var(--transition-speed);
+    /* Removido padding e border daqui para serem controlados pelo .recurso-card interno se necessário */
+}
+
+.recurso-card {
+    display: flex;
+    flex-direction: column; 
+    gap: 0.4rem; /* Espaçamento interno do card ajustado */
+    padding: 0.5rem; /* Padding interno do card ajustado */
+    border: 1px solid var(--cognita-border-subtle);
+    border-radius: var(--border-radius-small);
+    background-color: var(--cognita-bg-main);
+    transition: all var(--transition-speed);
+}
+
+.recurso-item:not(.item-featured) .recurso-card {
+    flex-direction: row; 
+    align-items: center; 
+    padding: 0.3rem 0.5rem; /* Padding ajustado para itens não-destacados */
+}
+
+.lista-recursos li {
+    padding: 0.7rem 0;
+    border-bottom: 1px solid var(--spotify-gray-medium);
+    color: var(--spotify-text-secondary);
+    font-size: 0.9rem;
+}
+
+.lista-recursos li strong {
+    color: var(--spotify-text-primary);
+}
+
+.lista-recursos li:last-child {
+    border-bottom: none;
+}
+
+.btn-add, .btn-show-more, .btn-submit {
+    background-color: var(--spotify-green);
+    color: var(--spotify-black);
+    border: none;
+    padding: 0.7rem 1.3rem;
+    border-radius: 50px;
+    cursor: pointer;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: var(--letter-spacing-buttons);
+    margin-top: 1rem;
+    margin-right: 0.5rem;
+    transition: background-color var(--transition-speed), transform var(--transition-speed), box-shadow var(--transition-speed);
+    box-shadow: var(--elevation-1dp);
+    align-self: flex-start; /* Alinha botões no início se a lista for curta */
+}
+
+.btn-add:hover, .btn-show-more:hover, .btn-submit:hover {
+    background-color: #1ed760;
+    transform: translateY(-1px);
+    box-shadow: var(--elevation-4dp);
+}
+
+/* Cards de Questionário */
+.quiz-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 1.8rem;
+}
+
+.quiz-card {
+    background-color: var(--spotify-card-bg);
+    border-radius: var(--border-radius);
+    box-shadow: var(--elevation-2dp);
+    text-align: center;
+    transition: transform var(--transition-speed), box-shadow var(--transition-speed);
+    cursor: pointer;
+    border: 1px solid var(--spotify-gray-medium);
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+}
+
+.quiz-card:hover, .quiz-card:focus {
+    transform: translateY(-6px);
+    box-shadow: var(--elevation-8dp);
+    outline: none; /* Remover outline padrão e confiar na sombra para foco */
+}
+
+.quiz-card .card-icon {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+}
+
+.quiz-card p {
+    font-size: 0.9rem;
+    color: var(--spotify-text-secondary);
+    padding: 1.5rem;
+    flex-grow: 1;
+}
+
+/* Seção de Benefícios */
+.benefits-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    gap: 2.5rem; /* Aumentar um pouco o gap */
+    text-align: center;
+}
+
+.benefit-item {
+    padding: 1.5rem;
+    /* background-color: var(--cognita-bg-main); /* Se a seção tiver fundo surface, os itens podem ter o fundo main */
+    /* border-radius: var(--border-radius); */
+    /* box-shadow: var(--elevation-1dp); */
+}
+
+.benefit-icon {
+    font-size: 3rem; /* Aumentar ícone */
+    color: var(--cognita-accent1); /* Cor de destaque principal */
+    margin-bottom: 1rem;
+    display: inline-block; /* Para permitir margin bottom */
+    transition: transform var(--transition-speed);
+}
+
+.benefit-item:hover .benefit-icon {
+    transform: scale(1.1) rotate(-5deg);
+}
+
+.benefit-item h3 {
+    font-size: 1.25rem;
+    color: var(--cognita-text-primary);
+    margin-bottom: 0.75rem;
+}
+
+.benefit-item p {
+    color: var(--cognita-text-secondary);
+    font-size: 0.9rem;
+    line-height: 1.7;
+}
+
+/* --- Seção Sobre --- */
+.about-section .creator-content {
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center; /* Centraliza o texto */
+    padding: 1rem 0;
+}
+
+.about-section .creator-content p {
+    font-size: 1.05rem;
+    color: var(--cognita-text-secondary);
+    line-height: 1.8;
+    margin-bottom: 1.25rem;
+}
+
+.about-section .creator-content strong {
+    color: var(--cognita-text-primary);
+    font-weight: 600;
+}
+
+/* --- Rodapé --- */
+.site-footer {
+    background-color: var(--cognita-bg-main); /* Fundo principal escuro */
+    color: var(--cognita-text-secondary);
+    padding: 3.5rem 0 1.5rem 0;
+    border-top: 1px solid var(--cognita-border-subtle);
+}
+
+.footer-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    gap: 2.5rem;
+    margin-bottom: 2.5rem;
+}
+
+.footer-column h4 {
+    font-size: 1.15rem;
+    color: var(--cognita-text-primary);
+    margin-bottom: 1rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+}
+
+.footer-column p,
+.footer-column a {
+    color: var(--cognita-text-secondary);
+    font-size: 0.9rem;
+    line-height: 1.7;
+}
+
+.footer-column a:hover,
+.footer-column a:focus {
+    color: var(--cognita-accent1);
+}
+
+.footer-column .social-links {
+    display: flex;
+    gap: 1rem; /* Espaçamento entre ícones */
+}
+
+.footer-column .social-links a {
+    font-size: 1.6rem; 
+    color: var(--cognita-text-secondary);
+    transition: color var(--transition-speed), transform var(--transition-speed);
+}
+
+.footer-column .social-links a:hover,
+.footer-column .social-links a:focus {
+    color: var(--cognita-accent1);
+    transform: scale(1.1);
+}
+
+.footer-contact p {
+    display: flex;
+    align-items: center;
+    gap: 0.6rem; 
+    margin-bottom: 0.6rem;
+}
+
+.footer-contact p i {
+    color: var(--cognita-accent2); 
+    width: 18px; 
+    text-align: center;
+}
+
+copyright-text {
+    border-top: 1px solid var(--cognita-border-subtle);
+    padding-top: 1.5rem;
+    text-align: center;
+    font-size: 0.85rem;
+    color: var(--cognita-text-secondary);
+}
+
+/* --- Estilos para Navegação Mobile --- */
+@media (max-width: 768px) {
+    .site-nav {
+        position: relative; /* Para o posicionamento do menu dropdown */
+    }
+
+    .nav-toggle {
+        display: block; /* Mostra o botão hamburger */
+        z-index: 1001; /* Para ficar acima do menu */
+    }
+
+    .site-nav ul#nav-menu {
+        /* Estilos de "display: none;" e "is-active" são controlados por JS */
+        position: absolute;
+        top: calc(100% + 1px); /* Logo abaixo do header */
+        right: 0;
+        background-color: var(--cognita-bg-surface);
+        width: 280px; 
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 1rem 0;
+        border-radius: 0 0 var(--border-radius-small) var(--border-radius-small);
+        box-shadow: var(--elevation-8dp);
+        border: 1px solid var(--cognita-border-subtle);
+        border-top: none;
+        opacity: 0;
+        transform: translateY(-10px);
+        visibility: hidden;
+        transition: opacity var(--transition-speed), transform var(--transition-speed), visibility var(--transition-speed);
+    }
+
+    .site-nav ul#nav-menu.is-active {
+        display: flex; 
+        opacity: 1;
+        transform: translateY(0);
+        visibility: visible;
+    }
+
+    .site-nav li {
+        margin-left: 0;
+        width: 100%;
+    }
+
+    .site-nav a.nav-link {
+        display: block;
+        padding: 0.85rem 1.5rem;
+        width: 100%;
+        border-bottom: 1px solid var(--cognita-border-subtle);
+    }
+    .site-nav li:last-child a.nav-link {
+        border-bottom: none;
+    }
+
+    .site-nav a.nav-link:hover,
+    .site-nav a.nav-link:focus,
+    .site-nav a.nav-link.active {
+        background-color: rgba(231, 111, 81, 0.1); 
+        border-bottom-color: var(--cognita-border-subtle); /* Manter a borda ou remover se preferir */
+        color: var(--cognita-accent1);
+    }
+    /* Ajustes para o container principal e seções no mobile */
+    .container {
+        width: 95%;
+    }
+    .content-section {
+        padding: 2.5rem 0;
+    }
+    h2.section-title {
+        margin-bottom: 1.5rem;
+    }
+    p.section-intro {
+        margin-bottom: 2rem;
+        font-size: 1rem;
+    }
+    .footer-container {
+        grid-template-columns: 1fr; 
+        text-align: center;
+    }
+    .footer-column {
+        margin-bottom: 2rem;
+    }
+    .footer-contact p {
+        justify-content: center;
+    }
+    .footer-column .social-links {
+        justify-content: center;
+    }
+}
+
+/* Seção Sobre o Criador */
+.creator-content p {
+    color: var(--spotify-text-secondary);
+    font-size: 1.05rem;
+    line-height: 1.8; /* Melhorar espaçamento entre linhas */
+}
+
+/* Rodapé */
+.site-footer {
+    background-color: var(--spotify-black);
+    border-top: 1px solid var(--spotify-gray-medium);
+    color: var(--spotify-text-secondary);
+    padding: 2.5rem 0 1.5rem 0;
+    text-align: center;
+}
+
+.footer-content {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 1.8rem;
+    margin-bottom: 2rem;
+    text-align: left;
+}
+
+.footer-column h4 {
+    color: var(--spotify-text-primary);
+    font-weight: 600;
+    margin-bottom: 1.2rem;
+}
+
+.footer-column p,
+.footer-column a {
+    color: var(--spotify-text-secondary);
+    font-size: 0.9rem;
+}
+
+.footer-column a:hover,
+.footer-column a:focus {
+    color: var(--spotify-text-primary);
+}
+
+.social-links a {
+    font-size: 1.6rem;
+    margin-right: 1.2rem;
+    color: var (--spotify-text-secondary);
+}
+
+.social-links a:last-child {
+    margin-right: 0;
+}
+
+.social-links a:hover,
+.social-links a:focus {
+    color: var(--spotify-green);
+}
+
+.copyright-text {
+    border-top: 1px solid var(--spotify-gray-light);
+    padding-top: 1.5rem;
+    font-size: 0.85rem;
+    color: var(--spotify-text-secondary);
+}
+
+/* Estilos para Modais (Materialize override/complement) */
+.modal {
+    background-color: var(--spotify-card-bg);
+    color: var(--spotify-text-primary);
+    border-radius: var(--border-radius-small); /* Material usa 4px para dialogs */
+    box-shadow: var(--elevation-16dp); /* Sombra mais pronunciada para modais */
+    max-width: 550px;
+    border: 1px solid var(--spotify-gray-medium);
+}
+
+.modal .modal-content {
+    padding: 24px;
+}
+
+.modal .modal-content h2 {
+    color: var(--spotify-text-primary);
+    font-family: var(--font-family-headings);
+    font-size: 1.6rem;
+    margin-bottom: 1.5rem;
+}
+
+.modal-form label {
+    color: var(--spotify-text-secondary);
+    font-size: 0.9rem; /* Aumentar um pouco */
+    display: block; /* Para que a margem funcione */
+    margin-bottom: 0.3rem;
+}
+
+.modal-form input[type="text"],
+.modal-form input[type="url"],
+.modal-form textarea {
+    background-color: var(--spotify-surface-bg);
+    border: 1px solid var(--spotify-gray-medium);
+    border-radius: var(--border-radius-small);
+    color: var(--spotify-text-primary);
+    padding: 0.8rem;
+    margin-bottom: 1.2rem; /* Aumentar margem */
+    width: 100%;
+    font-family: var(--font-family-body);
+    font-size: 1rem;
+}
+
+.modal-form input[type="text"]:focus,
+.modal-form input[type="url"]:focus,
+.modal-form textarea:focus {
+    border-color: var(--spotify-green);
+    box-shadow: 0 0 0 2px rgba(29, 185, 84, 0.25);
+    outline: none;
+}
+
+.modal .close {
+    position: absolute;
+    top: 12px;
+    right: 12px;
+    font-size: 1.5rem; /* Ajustado */
+    color: var(--spotify-text-secondary);
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 0.5rem;
+    line-height: 1;
+}
+.modal .close:hover {
+    color: var(--spotify-text-primary);
+}
+
+/* Estilos para os recursos dinâmicos */
+.capa-recurso {
+    width: 100%;
+    max-width: 150px;
+    height: auto;
+    border-radius: var(--border-radius);
+    box-shadow: var(--elevation-1dp);
+    margin-bottom: 10px;
+}
+
+.descricao-recurso {
+    font-family: var(--font-family-body);
+    font-size: 0.9rem;
+    color: var(--spotify-text-secondary);
+    line-height: 1.5;
+    margin-top: 5px;
+}
+
+/* Estilos para os modais */
+.modal {
+    display: none; /* Ocultar por padrão */
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5); /* Fundo escuro com transparência */
+    backdrop-filter: blur(5px); /* Efeito de desfoque */
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+}
+
+.modal-content {
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 90%;
+    max-width: 500px;
+}
+
+.modal .close {
+    background: #f44336;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+    border-radius: 4px;
+    margin-top: 10px;
+}
+
+/* === Estilos para os cartões de recursos === */
+.recurso-item {
+    margin-bottom: 1.2rem;
+    padding: 0;
+    border: none;
+    background: none;
+}
+
+.recurso-card {
+    display: flex;
+    align-items: flex-start;
+    background: var(--card-bg);
+    border-radius: var(--border-radius);
+    box-shadow: var(--elevation-1dp);
+    padding: 1rem;
+    gap: 1.2rem;
+    transition: box-shadow 0.2s;
+}
+
+body.dark-mode .recurso-card {
+    background: var(--card-bg-dark);
+    box-shadow: var(--elevation-2dp);
+}
+
+.recurso-capa {
+    flex-shrink: 0;
+    width: 70px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    border-radius: var(--border-radius-small);
+    background: #f4f4f4;
+    box-shadow: var(--elevation-1dp);
+}
+
+body.dark-mode .recurso-capa {
+    background: #222b3a;
+}
+
+.recurso-capa img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: var(--border-radius-small);
+    display: block;
+}
+
+.recurso-info {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.recurso-info a,
+.recurso-info strong {
+    font-size: 1.08rem;
+    font-family: var(--font-family-headings);
+    color: var(--primary-color);
+    font-weight: 600;
+    text-decoration: none;
+    margin-bottom: 0.2rem;
+}
+
+body.dark-mode .recurso-info a,
+body.dark-mode .recurso-info strong {
+    color: var(--accent-color);
+}
+
+.recurso-autor {
+    font-size: 0.95rem;
+    color: var(--spotify-text-secondary);
+    margin-bottom: 0.2rem;
+}
+
+.recurso-descricao {
+    font-size: 0.93rem;
+    color: var(--spotify-text-secondary);
+    margin-top: 0.2rem;
+    line-height: 1.5;
+}
+
+body.dark-mode .recurso-descricao,
+body.dark-mode .recurso-autor {
+    color: #b3b3b3;
+}
+
+@media (max-width: 600px) {
+    .recurso-card {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        padding: 0.7rem;
+    }
+    .recurso-capa {
+        width: 90px;
+        height: 120px;
+        margin-bottom: 0.7rem;
+    }
+    .recurso-info {
+        align-items: center;
+    }
+}
+
+/* Responsividade */
+@media (max-width: 992px) {
+    h1 { font-size: 2.5rem; }
+    h2 { font-size: 1.8rem; } /* Ajustado h2 */
+    .hero-content .subtitle { font-size: 1.1rem; }
+}
+
+@media (max-width: 768px) {
+    .nav-container {
+        flex-direction: column;
+        padding-bottom: 0.5rem;
+    }
+    .site-nav ul {
+        margin-top: 1rem;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .site-nav li {
+        margin: 0.3rem 0.7rem;
+    }
+    .hero-content h1 { font-size: 2rem; } /* Ajustado */
+    .footer-content {
+        grid-template-columns: 1fr;
+        text-align: center;
+    }
+    .footer-column {
+        margin-bottom: 1.5rem;
+    }
+}
+
+@media (max-width: 480px) {
+    html { font-size: 15px; }
+    h1 { font-size: 1.8rem; }
+    h2 { font-size: 1.6rem; } /* Ajustado h2 */
+    .hero-content .subtitle { font-size: 0.95rem; } /* Ajustado */
+    .cta-button { font-size: 0.9rem; padding: 0.8rem 1.6rem; }
+    .quiz-card .card-icon {
+        height: 140px;
+    }
+    .quiz-card p {
+        font-size: 0.85rem;
+        padding: 1.2rem;
+    }
+    .categoria {
+        padding: 1.2rem;
+    }
+    .modal {
+        width: 95%;
+    }
+}
+
+.hidden {
+    display: none !important;
+}
+
+/* --- Seção de Recursos (Fontes de Conhecimento Cognita) --- */
+.recursos-section .categorias-grid {
+    display: grid;
+    /* Usar flexbox para controle interno dos cards, mas grid para o layout geral */
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); 
+    gap: 2rem;
+}
+
+.categoria {
+    background-color: var(--cognita-bg-surface);
+    padding: 1.5rem;
+    border-radius: var(--border-radius);
+    box-shadow: var(--elevation-2dp);
+    display: flex;
+    flex-direction: column;
+    transition: transform var(--transition-speed), box-shadow var(--transition-speed);
+    border: 1px solid var(--cognita-border-subtle);
+}
+
+.categoria:hover {
+    transform: translateY(-5px);
+    box-shadow: var(--elevation-4dp);
+}
+
+.categoria h3 {
+    font-size: 1.4rem;
+    color: var(--cognita-accent1); /* Cor de destaque para o título da categoria */
+    margin-bottom: 1rem;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+/* Adicionar ícones antes dos títulos das categorias */
+.categoria[data-categoria="Livros"] h3::before {
+    content: "\f02d"; /* Ícone de livro do Font Awesome */
+    font-family: "Font Awesome 6 Free";
+    font-weight: 900;
+    margin-right: 0.5em;
+    color: var(--cognita-accent2);
+}
+
+.categoria[data-categoria="Podcasts"] h3::before {
+    content: "\f130"; /* Ícone de microfone do Font Awesome */
+    font-family: "Font Awesome 6 Free";
+    font-weight: 900;
+    margin-right: 0.5em;
+    color: var(--cognita-accent2);
+}
+
+.categoria[data-categoria="Canais do YouTube"] h3::before {
+    content: "\f16a"; /* Ícone do YouTube do Font Awesome */
+    font-family: "Font Awesome 6 Brands"; /* Nota: Brands para ícones de marca */
+    font-weight: 400; /* Ajustar peso se necessário */
+    margin-right: 0.5em;
+    color: var(--cognita-accent2);
+}
+
+.categoria[data-categoria="Sites de Notícias"] h3::before {
+    content: "\f1ea"; /* Ícone de jornal do Font Awesome */
+    font-family: "Font Awesome 6 Free";
+    font-weight: 900;
+    margin-right: 0.5em;
+    color: var(--cognita-accent2);
+}
+
+.lista-recursos ul {
+    list-style-type: none !important; /* Forçar remoção dos marcadores */
+    padding-left: 0 !important; /* Remover padding padrão do user-agent */
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 0.4rem; /* Espaçamento vertical mínimo entre os cards dos itens */
+}
+
+.recurso-item {
+    transition: background-color var(--transition-speed);
+    /* Remover padding/margin daqui se o card interno já controla */
+}
+
+.recurso-card {
+    display: flex;
+    flex-direction: column; 
+    gap: 0.25rem; /* Espaçamento interno do card bem reduzido */
+    padding: 0.5rem; /* Padding interno do card reduzido */
+    border: 1px solid var(--cognita-border-subtle);
+    border-radius: var(--border-radius-small);
+    background-color: var(--cognita-bg-main);
+    transition: all var(--transition-speed);
+}
+
+.recurso-item:not(.item-featured) .recurso-card {
+    flex-direction: row; 
+    align-items: center; 
+    padding: 0.3rem 0.5rem; 
+}
+
+.recurso-item .recurso-capa {
+    width: 100%; 
+    max-height: 150px; 
+    aspect-ratio: 16/9;
+    overflow: hidden;
+    border-radius: var(--border-radius-small);
+    flex-shrink: 0; 
+    /* display: block; por padrão para o item-featured */
+}
+
+.recurso-item:not(.item-featured) .recurso-capa {
+    width: 40px; /* Capa ainda menor para itens normais não-hover */
+    height: 40px;
+    display: none; /* Mantém escondida até o hover */
+}
+
+.recurso-item .recurso-capa img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.recurso-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Centralizar verticalmente o texto quando a capa está ao lado */
+    flex-grow: 1;
+    overflow: hidden; /* Para evitar que textos longos quebrem o layout */
+}
+
+.recurso-info h4 {
+    font-size: 0.9rem; 
+    margin-bottom: 0.1rem; 
+    color: var(--cognita-text-primary);
+    line-height: 1.3;
+    font-weight: 500;
+    white-space: nowrap; /* Evitar quebra de linha no título */
+    overflow: hidden;
+    text-overflow: ellipsis; /* Adicionar '...' se o título for muito longo */
+}
+
+.recurso-info h4 a {
+    color: inherit; 
+    display: block; /* Para o text-overflow funcionar */
+}
+
+.recurso-info h4 a:hover {
+    color: var(--cognita-accent1);
+}
+
+.recurso-autor {
+    font-size: 0.7rem; 
+    color: var(--cognita-text-secondary);
+    margin-bottom: 0.2rem; 
+    line-height: 1.2;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.recurso-descricao {
+    font-size: 0.8rem; 
+    color: var(--cognita-text-secondary);
+    line-height: 1.4;
+    max-height: 0; 
+    overflow: hidden;
+    opacity: 0;
+    transition: max-height 0.3s ease-out, opacity 0.2s ease-out, margin-top 0.3s ease-out;
+    margin-top: 0;
+}
+
+/* Exibição para o primeiro item (featured) */
+.recurso-item.item-featured .recurso-capa {
+    display: block; 
+}
+.recurso-item.item-featured .recurso-descricao {
+    max-height: 70px; /* Altura ajustada para descrição do item destacado */
+    opacity: 1;
+    margin-top: 0.25rem;
+}
+
+/* Efeito de Hover para itens não-featured */
+.recurso-item:not(.item-featured):hover .recurso-card {
+    background-color: var(--cognita-bg-surface); 
+    border-color: var(--cognita-accent2);
+}
+
+.recurso-item:not(.item-featured):hover .recurso-capa {
+    display: block; 
+    width: 50px; /* Tamanho da capa no hover */
+    height: 50px;
+    margin-right: 0.5rem; /* Espaço entre capa e texto no hover */
+}
+
+.recurso-item:not(.item-featured):hover .recurso-descricao {
+    max-height: 70px; 
+    opacity: 1;
+    margin-top: 0.25rem;
+}
+
+.recurso-item-empty {
+    color: var(--cognita-text-secondary);
+    font-style: italic;
+    padding: 1rem 0;
+}
+
+/* Estilo para o botão "Mostrar Mais" */
+.btn-show-more {
+    background-color: transparent;
+    color: var(--cognita-accent2);
+    border: 1px solid var(--cognita-accent2);
+    padding: 0.5rem 1rem;
+    border-radius: var(--border-radius-small);
+    cursor: pointer;
+    font-weight: 500;
+    margin-top: 1rem;
+    align-self: flex-start;
+    transition: background-color var(--transition-speed), color var (--transition-speed);
+}
+
+.btn-show-more:hover {
+    background-color: var(--cognita-accent2);
+    color: var(--cognita-bg-main);
+}
+
+.item-hidden {
+    display: none !important; /* Para ocultar os itens extras */
+}
+
+/* --- Seção de Questionários (Desafios Cognita) --- */
+.quiz-section .quiz-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 2rem;
+}
+
+.quiz-card {
+    background-color: var(--cognita-bg-surface);
+    border-radius: var(--border-radius);
+    box-shadow: var(--elevation-2dp);
+    overflow: hidden; /* Para o efeito da imagem */
+    display: flex;
+    flex-direction: column;
+    transition: transform var(--transition-speed), box-shadow var(--transition-speed);
+    border: 1px solid var(--cognita-border-subtle);
+    cursor: pointer;
+}
+
+.quiz-card:hover, .quiz-card:focus-within {
+    transform: translateY(-6px) scale(1.02);
+    box-shadow: var(--elevation-8dp);
+    border-color: var(--cognita-accent1);
+}
+
+.quiz-card .card-icon {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+    border-bottom: 1px solid var(--cognita-border-subtle);
+    transition: transform 0.3s ease-out;
+}
+
+.quiz-card:hover .card-icon {
+    transform: scale(1.05);
+}
+
+.quiz-card-content {
+    padding: 1.5rem;
+    flex-grow: 1; /* Para que o conteúdo ocupe o espaço e alinhe o botão (se houver) */
+    display: flex;
+    flex-direction: column;
+}
+
+.quiz-card-content h3 {
+    font-size: 1.3rem;
+    color: var(--cognita-accent1);
+    margin-bottom: 0.5rem;
+}
+
+.quiz-card-content p {
+    font-size: 0.95rem;
+    color: var(--cognita-text-secondary);
+    line-height: 1.6;
+    flex-grow: 1; /* Para empurrar o botão para baixo se adicionado */
+    margin-bottom: 1rem; /* Espaço antes de um possível botão */
+}
+
+/* Se quisermos um botão "Iniciar Desafio" em cada card futuramente:
+.quiz-card-content .cta-button-quiz {
+    background-color: var(--cognita-accent2);
+    color: var(--cognita-bg-main);
+    padding: 0.6rem 1.2rem;
+    border-radius: 50px;
+    font-weight: 600;
+    font-size: 0.85rem;
+    text-transform: uppercase;
+    letter-spacing: var(--letter-spacing-buttons);
+    align-self: flex-start; 
+    margin-top: auto; 
+}
+
+.quiz-card-content .cta-button-quiz:hover {
+    background-color: #7cbde8; 
+}
+*/
+
+/* ... (Restante do CSS para outras seções) ... */
+
+/* Classe utilitária para esconder visualmente, mas manter para leitores de tela */
+.sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border-width: 0;
+}
+
+/* Classe para esconder completamente (usada pelo JS para o loader, etc.) */
+.hidden {
+    display: none !important;
+}
+
+/* --- Seção de Recursos (Fontes de Conhecimento Cognita) --- */
+/* ... (Estilos para .recursos-section .categorias-grid, .categoria, .categoria h3 e ícones) ...*/
+
+.lista-recursos > ul {
+    list-style-type: none !important; 
+    padding-left: 0 !important; 
+    margin: 0 !important; 
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem; /* Espaço entre os LIs (cards) */
+}
+
+.lista-recursos > ul > li.recurso-item {
+    list-style-type: none !important;
+    padding: 0 !important; 
+    margin: 0 !important; 
+    background-color: transparent !important; /* Garantir que não haja fundo no LI */
+    border: none !important; /* Garantir que não haja borda no LI */
+}
+
+.recurso-card { /* O card dentro do LI */
+    display: flex;
+    gap: 0.75rem; 
+    padding: 0.75rem;
+    border: 1px solid var(--cognita-border-subtle);
+    border-radius: var(--border-radius-small);
+    background-color: var(--cognita-bg-main);
+    transition: background-color var(--transition-speed), border-color var(--transition-speed);
+    align-items: center; 
+}
+
+.recurso-item.item-featured .recurso-card {
+    flex-direction: column;
+    align-items: stretch; 
+}
+
+.recurso-item:not(.item-featured) .recurso-card {
+    flex-direction: row; 
+    padding: 0.6rem 0.75rem; 
+}
+
+/* ... (Restante dos estilos para .recurso-capa, .recurso-info, .recurso-descricao, hover, etc. permanecem como na última tentativa) ... */
+
+.recurso-info h4 {
+    font-size: 0.95rem;
+    margin-top: 0; /* Garantir que não haja margem superior no título */
+    margin-bottom: 0.2rem;
+    color: var(--cognita-text-primary);
+    line-height: 1.35;
+    font-weight: 500;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.recurso-autor {
+    font-size: 0.8rem;
+    color: var(--cognita-text-secondary);
+    margin-top: 0; /* Garantir que não haja margem superior no autor */
+    margin-bottom: 0.25rem;
+    line-height: 1.2;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+/* ... (Restante dos estilos) ... */

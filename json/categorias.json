@@ -1,0 +1,140 @@
+{
+    "Livros": [
+        {
+            "titulo": "Data Science for Business",
+            "autor": "Foster Provost e Tom Fawcett",
+            "descricao": "Livro de referência para entender a ciência de dados aplicada a negócios",
+            "capa": "https://m.media-amazon.com/images/I/91lOK2jVqPL._SL1500_.jpg",
+            "link": "https://www.amazon.com/Data-Science-Business-Data-Analytic-Thinking/dp/1449361323"
+        },
+        {
+            "titulo": "Big Data no Trabalho",
+            "autor": "Thomas H. Davenport",
+            "descricao": "Livro de referência para entender a ciência de dados aplicada a negócios",
+            "capa": "https://m.media-amazon.com/images/I/91XQaFHpB1L._SL1500_.jpg",
+            "link": "https://www.amazon.com.br/Big-data-trabalho-Thomas-Davenport/dp/8535279148"
+        },
+        {
+            "titulo": "Gestão Visual de Projetos",
+            "autor": "Júlio Monteiro Teixeira",
+            "descricao": "Livro sobre gestão visual de projetos",
+            "capa": "https://m.media-amazon.com/images/I/61G7zcN5iML._SL1000_.jpg",
+            "link": "https://www.amazon.com.br/Gest%C3%A3o-visual-projetos-Utilizando-informa%C3%A7%C3%A3o/dp/8550801712"
+        },
+        {
+            "titulo": "Storytelling with Data",
+            "autor": "Cole Nussbaumer Knaflic",
+            "descricao": "Livro sobre como contar histórias com dados",
+            "capa": "https://m.media-amazon.com/images/I/71EN1l+uQKL._SL1500_.jpg",
+            "link": "https://www.amazon.com/Storytelling-Data-Visualization-Business-Professionals/dp/1119002257"
+        }
+    ],
+    "Podcasts": [
+        {
+            "titulo": "CTRL ENTER",
+            "descricao": "Tudo que você sempre quis saber sobre Ciência de Dados, mas tinha medo de perguntar, é o novo Podcast sobre Data Science do IDP. Conversas com os melhores profissionais do setor privado, governo, ONGs e academia sobre as dores e as delícias de trabalhar com dados hoje. Apresentação: Leonardo Monasterio.",
+            "capa": "https://www.idp.edu.br/wp-content/themes/idp_principal_2020/img/thumb-ctrl-enter.jpg",
+            "link": "https://www.idp.edu.br/podcasts/ctrl-enter/"
+        },
+        {
+            "titulo": "Pizza de Dados",
+            "descricao": "O Pizza de Dados é uma iniciativa de 3 apaixonados por ciência de dados que viviam discutindo assuntos, links e conselhos de carreira. A vontade de aprender mais e compartilhar conhecimento era comum a todos e a ausência de um canal em português para tratar desses temas, levou à ideia de formar o pizza de dados.",
+            "capa": "https://pizzadedados.com/assets/img/signo.png",
+            "link": "https://pizzadedados.com/"
+        },
+        {
+            "titulo": "Consciência e Informação",
+            "descricao": "Um podcast feito por estudantes do programa de Pós Graduação em Ciência da Informação para compartilhar e conversar sobre nossas pesquisas e produções, com muita consciência.",
+            "capa": "https://i.scdn.co/image/ab67656300005f1f848028ffaaa8f2482f33408e",
+            "link": "https://open.spotify.com/show/1iH61V6NtWFHAEi4DNQE1W"
+        },
+        {
+            "titulo": "Xadrez Verbal",
+            "descricao": "Noticias internacionais",
+            "capa": "https://www.central3.com.br/wp-content/uploads/2018/01/Logo-Iamin.png",
+            "link": "https://xadrezverbal.com/"
+        }
+    ],
+    "Canais do YouTube": [
+        {
+            "titulo": "ProjectManager",
+            "descricao": "Canal com vídeos educativos sobre como gerenciar projetos do início ao fim, com lições de especialistas em gerenciamento de projetos.",
+            "capa": "https://yt3..com/h86bYLWOqhuuGUVPy_4b1lMWMRVZFwLSO3pEK2g4YrZCBeyEur5XRd1NAsDt3AE3uSJNBnmZ2w=s160-c-k-c0x00ffffff-no-rj",
+            "link": "https://www.youtube.com/c/ProjectManager"
+        },
+        {
+            "titulo": "Adriana Girdler",
+            "descricao": "Especialista em produtividade e gestão de projetos, Adriana compartilha dicas práticas e estratégias para gerenciar projetos com sucesso.",
+            "capa": "https://novo-link-para-imagem.com/imagem.jpg",
+            "link": "https://www.youtube.com/@AdrianaGirdler"
+        },
+        {
+            "titulo": "Association for Project Management (APM)",
+            "descricao": "Canal oficial da APM, com vídeos sobre gerenciamento de projetos, programas e portfólios, além de eventos e webinars.",
+            "capa": "https://yt3.ggpht.com/ytc/AAUvwnjQdJ7pP1oTn4O6F5s8fS7GvX8uJ2kA3G5B=s900-c-k-c0x00ffffff-no-rj",
+            "link": "https://www.youtube.com/channel/UCjXfbV2_T"
+        },
+        {
+            "titulo": "HR.com",
+            "descricao": "Canal dedicado a profissionais de RH, com vídeos sobre certificações, tendências e melhores práticas em gestão de pessoas.",
+            "capa": "https://yt3.ggpht.com/ytc/AAUvwnhQdJ7pP1oTn4O6F5s8fS7GvX8uJ2kA3G5B=s900-c-k-c0x00ffffff-no-rj",
+            "link": "https://www.youtube.com/c/hrcom"
+        },
+        {
+            "titulo": "SHRM (Society for Human Resource Management)",
+            "descricao": "Canal da principal organização de RH do mundo, com conteúdos sobre engajamento, diversidade e estratégias organizacionais.",
+            "capa": "https://yt3.ggpht.com/ytc/AAUvwnjQdJ7pP1oTn4O6F5s8fS7GvX8uJ2kA3G5B=s900-c-k-c0x00ffffff-no-rj",
+            "link": "https://www.youtube.com/channel/UCUr0u2WqDWBdxrHnM1nRZiA"
+        },
+        {
+            "titulo": "The HR Hub",
+            "descricao": "Focado em tendências e práticas modernas em RH, incluindo gestão de talentos e cultura organizacional.",
+            "capa": "https://yt3.ggpht.com/ytc/AAUvwnhQdJ7pP1oTn4O6F5s8fS7GvX8uJ2kA3G5B=s900-c-k-c0x00ffffff-no-rj",
+            "link": "https://www.youtube.com/@hrhubtalk"
+        },
+        {
+            "titulo": "Instituto Information Management",
+            "descricao": "Programas quinzenais com conteúdos voltados para profissionais que trabalham com gestão de informações e documentos.",
+            "capa": "",
+            "link": "https://www.youtube.com/channel/UC7pT06DNbDUkxWgHxSE5brw/videos"
+        },
+        {
+            "titulo": "The Information and Records Management Society (IRMS)",
+            "descricao": "Canal oficial da IRMS, com vídeos sobre governança da informação, gestão documental e eventos na área.",
+            "capa": "",
+            "link": "https://www.youtube.com/channel/UCZuJPNzpRHYlVGOQC79IE_Q"
+        },
+        {
+            "titulo": "Paperless Movement",
+            "descricao": "\"Focado em produtividade e gestão da informação, abordando temas como \"Single Source of Truth\" e ferramentas digitais.",
+            "capa": "",
+            "link": ""
+        }
+    ],
+    "Sites de Notícias": [
+        {
+            "titulo": "Portal de Periódicos CAPES",
+            "descricao": "Repositório acadêmico com publicações relevantes para ciência da informação",
+            "capa": "",
+            "link": "https://www.seer.ufal.br/index.php/cir/index"
+        },
+        {
+            "titulo": "Brapci (Base de Dados em Ciência da Informação)",    
+            "descricao": "Repositório especializado em publicações científicas na área",  
+            "capa": "https://m.media-amazon.com/images/I/51-nXsSRfZL._SY445_SX342_.jpg",
+            "link": "https://brapci.inf.br"
+        },
+        {
+            "titulo": "FAPESP - Gestão de Dados",
+            "descricao": "Diretrizes para gestão de dados científicos no Brasil",
+            "capa": "https://m.media-amazon.com/images/I/51-nXsSRfZL._SY445_SX342_.jpg",
+            "link": "https://fapesp.br/gestaodedados"
+        },
+        {
+            "titulo": "Observatório Ipea (Gestão do Conhecimento)",
+            "descricao": "Notícias sobre práticas e políticas públicas relacionadas à gestão do conhecimento",
+            "capa": "https://m.media-amazon.com/images/I/51-nXsSRfZL._SY445_SX342_.jpg",
+            "link": "https://www.ipea.gov.br/observatorio/noticias"
+        }
+    ]
+} 

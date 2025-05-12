@@ -1,0 +1,556 @@
+/* Variáveis CSS alinhadas com style.css */
+:root {
+    --primary-color: var(--spotify-green, #1DB954);
+    --primary-dark: #1aa34a; /* Um verde Spotify mais escuro para hover */
+    --background-color: var(--spotify-black, #121212);
+    --surface-color: var(--spotify-card-bg, #181818);
+    --text-color: var(--spotify-text-primary, #FFFFFF);
+    --text-secondary-color: var(--spotify-text-secondary, #B3B3B3);
+    --border-color: var(--spotify-gray-medium, #535353);
+    --error-color: #f44336; /* Mantido para feedback de erro */
+    --spacing-unit: 1rem;
+    /* Importando variáveis de fontes e bordas do style.css se não estiverem já globais */
+    --font-family-headings: 'Montserrat', sans-serif;
+    --font-family-body: 'Poppins', sans-serif;
+    --border-radius: 8px;
+    --border-radius-small: 4px;
+    --elevation-4dp: 0px 2px 4px -1px rgba(0,0,0,0.2), 0px 4px 5px 0px rgba(0,0,0,0.14), 0px 1px 10px 0px rgba(0,0,0,0.12);
+    --transition-speed: 0.25s ease-in-out;
+    --letter-spacing-buttons: 0.05em;
+}
+
+/* Reset e estilos base */
+.teste-container,
+.resultado-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: var(--spacing-unit);
+}
+
+.resultado-container {
+    background-color: var(--background-light);
+    border-radius: 8px;
+    margin-top: var(--spacing-unit);
+}
+
+body.quiz-page-active {
+    background-color: var(--background-color);
+    color: var(--text-color);
+    font-family: var(--font-family-body);
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+}
+
+.quiz-page-wrapper {
+    width: 90%;
+    max-width: 900px;
+    margin: 2rem auto;
+    padding: clamp(1rem, 5vw, 2rem); /* Padding responsivo */
+    background-color: var(--surface-color);
+    border-radius: var(--border-radius);
+    box-shadow: var(--elevation-4dp);
+}
+
+.quiz-header {
+    margin-bottom: 2rem;
+    padding-bottom: 1rem;
+    border-bottom: 1px solid var(--border-color);
+    text-align: center;
+}
+
+.quiz-header h1 {
+    color: var(--text-color);
+    font-family: var(--font-family-headings);
+    font-size: clamp(1.8rem, 5vw, 2.25rem); /* Tamanho de fonte responsivo */
+    margin-bottom: 0.5rem;
+}
+
+.back-to-home-btn {
+    color: var(--primary-color);
+    text-decoration: none;
+    font-size: 0.9rem;
+    display: inline-flex; /* Para alinhar ícone e texto */
+    align-items: center;
+    gap: 0.3rem;
+}
+
+.back-to-home-btn i {
+    transition: transform 0.2s ease-in-out;
+}
+
+.back-to-home-btn:hover {
+    color: var(--primary-dark);
+    text-decoration: none; /* Evitar sublinhado se o tema não usa */
+}
+.back-to-home-btn:hover i {
+    transform: translateX(-3px);
+}
+
+#level-selection-area h2 {
+    text-align: center;
+    color: var(--text-color);
+    font-family: var(--font-family-headings);
+    margin-bottom: 1.5rem;
+    font-size: clamp(1.5rem, 4vw, 1.8rem);
+}
+
+.level-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    margin-bottom: 2rem;
+    flex-wrap: wrap;
+}
+
+/* Estilo Base para Botões do Quiz */
+.level-btn,
+.next-question-btn,
+#restart-quiz-btn,
+#review-answers-btn,
+#back-to-results-btn-review {
+    background-color: var(--primary-color);
+    color: var(--spotify-black, #121212); 
+    padding: 0.8rem 1.8rem;
+    border-radius: 50px; 
+    font-family: var(--font-family-headings);
+    font-weight: 700;
+    font-size: 0.90rem; /* Ajustado para melhor consistência */
+    transition: background-color var(--transition-speed), transform var(--transition-speed), box-shadow var(--transition-speed);
+    display: inline-block;
+    text-transform: uppercase;
+    letter-spacing: var(--letter-spacing-buttons);
+    border: none;
+    cursor: pointer;
+    text-align: center;
+}
+
+.level-btn:hover:not(:disabled),
+.next-question-btn:hover:not(:disabled),
+#restart-quiz-btn:hover:not(:disabled),
+#review-answers-btn:hover:not(:disabled),
+#back-to-results-btn-review:hover:not(:disabled) {
+    background-color: var(--primary-dark);
+    transform: translateY(-2px);
+    box-shadow: var(--elevation-2dp, 0px 3px 1px -2px rgba(0,0,0,0.2), 0px 2px 2px 0px rgba(0,0,0,0.14), 0px 1px 5px 0px rgba(0,0,0,0.12));
+}
+
+.level-btn:focus-visible,
+.next-question-btn:focus-visible,
+#restart-quiz-btn:focus-visible,
+#review-answers-btn:focus-visible,
+#back-to-results-btn-review:focus-visible {
+    outline: 2px solid var(--primary-dark);
+    outline-offset: 3px;
+}
+
+.level-btn:disabled,
+.next-question-btn:disabled,
+#restart-quiz-btn:disabled,
+#review-answers-btn:disabled,
+#back-to-results-btn-review:disabled {
+    background-color: var(--spotify-gray-medium, #535353);
+    color: var(--spotify-gray-light, #B3B3B3);
+    cursor: not-allowed;
+    transform: none;
+    box-shadow: none;
+}
+
+/* Estilos do Loader */
+.loader-container {
+    display: none; /* Escondido por padrão, JS controla visibilidade */
+    justify-content: center;
+    align-items: center;
+    min-height: 150px;
+    margin: 2rem 0;
+}
+
+.loader-container[aria-busy="true"] {
+    display: flex; /* Mostra quando aria-busy é true */
+}
+
+.loader {
+    width: 48px;
+    height: 48px;
+    border: 5px solid var(--spotify-gray-medium, #535353);
+    border-top: 5px solid var(--primary-color, #1DB954);
+    border-radius: 50%;
+    animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
+/* Melhorias de Acessibilidade */
+.question-item {
+    background-color: var(--spotify-black, #121212); /* Fundo um pouco diferente para destacar */
+    padding: 1.5rem;
+    border-radius: var(--border-radius-small, 4px);
+    margin-bottom: 2rem;
+    border: 1px solid var(--border-color);
+}
+
+.question-text {
+    color: var(--text-color);
+    font-size: 1.2rem;
+    margin-bottom: 1.5rem;
+    line-height: 1.5;
+}
+
+.options-container {
+    display: flex;
+    flex-direction: column;
+    gap: 0.8rem;
+}
+
+.option-label {
+    display: flex;
+    align-items: center;
+    padding: 0.8rem 1rem;
+    border: 1px solid var(--border-color);
+    border-radius: var(--border-radius-small, 4px);
+    cursor: pointer;
+    transition: background-color 0.2s ease, border-color 0.2s ease;
+    color: var(--text-secondary-color);
+    background-color: var(--spotify-surface-bg); /* Fundo sutil para as opções */
+}
+
+.option-label:hover {
+    border-color: var(--primary-color);
+    background-color: rgba(29, 185, 84, 0.1); /* Verde Spotify com opacidade */
+}
+
+.option-label input[type="radio"] {
+    -webkit-appearance: none; /* Esconder o radio button padrão */
+    -moz-appearance: none;
+    appearance: none;
+    width: 18px;
+    height: 18px;
+    border: 2px solid var(--text-secondary-color);
+    border-radius: 50%;
+    margin-right: 0.8rem;
+    position: relative;
+    cursor: pointer;
+    outline: none;
+    vertical-align: middle;
+    flex-shrink: 0; /* Evitar que o radio button encolha */
+}
+
+.option-label input[type="radio"]:checked {
+    border-color: var(--primary-color);
+}
+
+.option-label input[type="radio"]:checked::after {
+    content: '';
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    background-color: var(--primary-color);
+    border-radius: 50%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.option-label input[type="radio"]:focus-visible {
+    box-shadow: 0 0 0 2px var(--background-color), 0 0 0 4px var(--primary-color);
+}
+
+.option-label.selected, /* Se você usar uma classe para a opção selecionada */
+.option-label:has(input[type="radio"]:checked) span {
+    color: var(--text-color); /* Destacar texto da opção selecionada */
+    font-weight: 500;
+}
+
+/* Simplificando seletores de botões */
+.btn {
+    padding: var(--spacing-unit) calc(var(--spacing-unit) * 2);
+    border: none;
+    border-radius: 8px;
+    background-color: var(--primary-color);
+    color: white;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.btn:hover,
+.btn:focus {
+    background-color: var(--primary-dark);
+    transform: translateY(-2px);
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+.btn:disabled {
+    background-color: var(--border-color);
+    cursor: not-allowed;
+    transform: none;
+}
+
+/* Aplicando classes de utilidade aos botões específicos */
+.level-btn,
+.next-btn,
+.review-btn {
+    padding: var(--spacing-unit) calc(var(--spacing-unit) * 2);
+    border: none;
+    border-radius: 8px;
+    background-color: var(--primary-color);
+    color: white;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    font: inherit;
+    font-weight: 500;
+}
+
+.level-btn:hover:not(:disabled),
+.next-btn:hover:not(:disabled),
+.review-btn:hover:not(:disabled),
+.level-btn:focus:not(:disabled),
+.next-btn:focus:not(:disabled),
+.review-btn:focus:not(:disabled) {
+    background-color: var(--primary-dark);
+    transform: translateY(-2px);
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+.level-btn:disabled,
+.next-btn:disabled,
+.review-btn:disabled {
+    background-color: var(--border-color);
+    cursor: not-allowed;
+    transform: none;
+}
+
+/* Responsividade */
+@media (max-width: 768px) {
+    .teste-container {
+        padding: 10px;
+    }
+}
+
+/* Classe para elementos visíveis apenas para leitores de tela */
+.sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border: 0;
+}
+
+/* Adiciona foco visível para usuários de teclado */
+*:focus-visible {
+    outline: 2px solid var(--primary-color, #1DB954); /* Usar a cor primária do tema */
+    outline-offset: 2px;
+}
+
+/* Garante que o loader seja centralizado e visível */
+.loader-container[aria-busy="true"] {
+    display: flex;
+}
+
+/* Removendo aparência padrão de elementos */
+input[type="radio"],
+progress {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+}
+
+/* Estilização personalizada do radio button */
+input[type="radio"] {
+    width: 20px;
+    height: 20px;
+    border: 2px solid var(--border-color);
+    border-radius: 50%;
+    margin-right: var(--spacing-unit);
+    position: relative;
+    cursor: pointer;
+}
+
+input[type="radio"]:checked {
+    border-color: var(--primary-color);
+    background-color: var(--primary-color);
+}
+
+input[type="radio"]:checked::after {
+    content: '';
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    background-color: white;
+    border-radius: 50%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+/* Estilização da barra de progresso */
+progress {
+    width: 100%;
+    height: 8px;
+    border-radius: 4px;
+    background-color: var(--background-light);
+    color: var(--primary-color);
+}
+
+progress::-webkit-progress-bar {
+    background-color: var(--background-light);
+    border-radius: 4px;
+}
+
+progress::-webkit-progress-value,
+progress::-moz-progress-bar {
+    background-color: var(--primary-color);
+    border-radius: 4px;
+    transition: width 0.3s ease;
+}
+
+/* Ajustes para .progress-container-quiz e seus elementos */
+.progress-container-quiz {
+    margin-bottom: 1.5rem;
+    text-align: center;
+}
+
+#progress-text {
+    color: var(--text-secondary-color);
+    font-size: 0.9rem;
+    margin-bottom: 0.5rem;
+}
+
+progress#progress-bar {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    width: 100%;
+    max-width: 400px; /* Limitar largura da barra */
+    height: 10px;
+    border-radius: 5px;
+    background-color: var(--spotify-gray-medium, #535353);
+    border: none;
+    margin: 0 auto; /* Centralizar */
+    overflow: hidden; /* Garante que o valor não ultrapasse o raio da borda */
+}
+
+progress#progress-bar::-webkit-progress-bar {
+    background-color: var(--spotify-gray-medium, #535353);
+    border-radius: 5px;
+}
+
+progress#progress-bar::-webkit-progress-value {
+    background-color: var(--primary-color, #1DB954);
+    border-radius: 5px 0 0 5px; /* Arredondar apenas o início se a barra for curta */
+    transition: width 0.3s ease;
+}
+/* Para barra cheia */
+progress#progress-bar[value="100"]::-webkit-progress-value {
+    border-radius: 5px;
+}
+
+progress#progress-bar::-moz-progress-bar {
+    background-color: var(--primary-color, #1DB954);
+    border-radius: 5px;
+    transition: width 0.3s ease;
+}
+
+/* Resultados e Revisão */
+#results-area h2,
+#review-section h3 {
+    text-align: center;
+    color: var(--text-color);
+    font-family: var(--font-family-headings);
+    margin-bottom: 1.5rem;
+    font-size: clamp(1.6rem, 4.5vw, 2rem);
+}
+
+#score-text,
+#percentage-text,
+#level-text {
+    color: var(--text-secondary-color);
+    text-align: center;
+    font-size: 1.1rem;
+    margin-bottom: 0.8rem;
+    line-height: 1.5;
+}
+
+.results-actions {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    margin-top: 2rem;
+    flex-wrap: wrap; /* Para melhor responsividade */
+}
+
+#review-content .review-item {
+    background-color: var(--spotify-black, #121212);
+    padding: 1rem;
+    margin-bottom: 1rem;
+    border-radius: var(--border-radius-small, 4px);
+    border: 1px solid var(--border-color);
+}
+
+#review-content .review-question {
+    font-weight: bold;
+    color: var(--text-color);
+    margin-bottom: 0.5rem;
+}
+
+#review-content .review-option {
+    padding: 0.3rem 0;
+    color: var(--text-secondary-color);
+}
+
+#review-content .review-option.user-answer {
+    font-style: italic;
+}
+
+#review-content .review-option.correct-answer {
+    color: var(--spotify-green, #1DB954); /* Verde para resposta correta */
+    font-weight: bold;
+}
+
+#review-content .review-option.user-answer.incorrect {
+    color: var(--error-color, #f44336); /* Vermelho para resposta incorreta do usuário */
+    text-decoration: line-through;
+}
+
+/* Responsividade */
+@media (max-width: 768px) {
+    .quiz-page-wrapper {
+        width: 95%;
+        padding: 1rem;
+        margin: 1rem auto;
+    }
+
+    .quiz-header h1 {
+        font-size: 1.8rem;
+    }
+
+    .level-buttons {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .level-btn,
+    .next-question-btn,
+    #restart-quiz-btn,
+    #review-answers-btn,
+    #back-to-results-btn-review {
+        width: 90%; /* Ajustado para não ser 100% e ter um respiro */
+        max-width: 320px;
+        padding: 0.9rem 1.5rem;
+    }
+
+    .question-text {
+        font-size: 1.1rem;
+    }
+
+    .results-actions {
+        flex-direction: column;
+        align-items: center;
+    }
+}
