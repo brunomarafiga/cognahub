@@ -1,6 +1,6 @@
 /**
- * script.js - Arquivo JavaScript principal da aplicação
- * Inicializa componentes e gerencia funcionalidades gerais do site
+ * script.js - Arquivo JavaScript principal da aplicação Cognita Hub
+ * Inicializa componentes, navegação responsiva e renderização dinâmica de recursos
  */
 
 // ========== INICIALIZAÇÃO PRINCIPAL ==========
@@ -8,7 +8,7 @@ document.addEventListener('DOMContentLoaded', () => {
     atualizarAnoRodape();
     inicializarNavegacaoScroll();
     inicializarNavegacaoMobile();
-    carregarRecursosDasCategorias(); // Apenas esta chamada é necessária para carregar os recursos
+    carregarRecursosDasCategorias();
 });
 
 // ========== UTILITÁRIOS ==========
@@ -27,18 +27,31 @@ function inicializarNavegacaoScroll() {
             const targetId = this.getAttribute('href');
             const targetElement = document.querySelector(targetId);
             if (targetElement) {
+                const headerHeight = document.querySelector('.main-navigation')?.offsetHeight || 80;
                 window.scrollTo({
-                    top: targetElement.offsetTop - 100, // Ajuste para o cabeçalho fixo
+                    top: targetElement.offsetTop - headerHeight,
                     behavior: 'smooth'
                 });
+                
+                // Fechar menu mobile ao clicar em um link de ancoragem
+                const navMenu = document.getElementById('nav-menu');
+                const navToggle = document.querySelector('.nav-toggle');
+                if (navMenu && navMenu.classList.contains('is-active')) {
+                    navMenu.classList.remove('is-active');
+                    if (navToggle) {
+                        navToggle.setAttribute('aria-expanded', 'false');
+                        navToggle.setAttribute('aria-label', 'Abrir menu');
+                    }
+                }
             }
         });
     });
+
     window.addEventListener('scroll', () => {
         const scrollPosition = window.scrollY;
         let foundActive = false;
         document.querySelectorAll('main section[id]').forEach(section => {
-            const sectionTop = section.offsetTop - 150; // Ajuste de offset
+            const sectionTop = section.offsetTop - 150;
             const sectionHeight = section.offsetHeight;
             const sectionId = section.id;
             const navLink = document.querySelector(`.site-nav a[href="#${sectionId}"]`);
@@ -52,8 +65,9 @@ function inicializarNavegacaoScroll() {
                 }
             }
         });
-        if (!foundActive) {
-            document.querySelectorAll('.site-nav a').forEach(link => link.classList.remove('active'));
+        if (!foundActive && scrollPosition < 200) {
+            const homeLink = document.querySelector('.site-nav a[href="index.html"]');
+            if (homeLink) homeLink.classList.add('active');
         }
     });
 }
@@ -64,7 +78,8 @@ function inicializarNavegacaoMobile() {
     const navMenu = document.getElementById('nav-menu');
 
     if (navToggle && navMenu) {
-        navToggle.addEventListener('click', () => {
+        navToggle.addEventListener('click', (e) => {
+            e.stopPropagation();
             const isActive = navMenu.classList.toggle('is-active');
             navToggle.setAttribute('aria-expanded', isActive.toString());
             if (isActive) {
@@ -96,26 +111,24 @@ function carregarRecursosDasCategorias() {
             return response.json();
         })
         .then(categorias => {
-            console.log("Categorias carregadas do JSON:", categorias);
-            renderizarRecursos(categorias); // Renomeado para evitar conflito e manter clareza
+            renderizarRecursos(categorias);
         })
         .catch(err => exibirErroRecursos(err));
 }
 
 function renderizarRecursos(categorias) {
-    const categoriasContainer = document.querySelector('#recursos-anchor .categorias-grid'); // Alvo atualizado para .categorias-grid
+    const categoriasContainer = document.querySelector('#recursos-anchor .categorias-grid') || document.querySelector('.categorias-grid');
     if (!categoriasContainer) {
         console.error('Container de categorias-grid não encontrado');
         return;
     }
-    categoriasContainer.innerHTML = ''; // Limpar antes de renderizar
+    categoriasContainer.innerHTML = '';
 
     Object.entries(categorias).forEach(([categoriaNome, recursos]) => {
         const categoriaDiv = document.createElement('div');
         categoriaDiv.className = 'categoria';
         categoriaDiv.setAttribute('data-categoria', categoriaNome);
         
-        // Usar os nomes de subcategoria da proposta de branding
         let tituloSubcategoria = categoriaNome;
         if (categoriaNome === "Livros") tituloSubcategoria = "Biblioteca Cognita";
         else if (categoriaNome === "Podcasts") tituloSubcategoria = "Audioteca Cognita";
@@ -182,18 +195,17 @@ function criarItemRecurso(recurso, categoria, index) {
     const li = document.createElement('li');
     li.className = 'recurso-item';
     if (index === 0) {
-        li.classList.add('item-featured'); // Classe para o primeiro item
+        li.classList.add('item-featured');
     }
 
-    // Card para o recurso (agora sempre presente, CSS controla visibilidade dos filhos)
     const cardDiv = document.createElement('div');
     cardDiv.className = 'recurso-card';
 
-    let capaHtml = '';
     const temCapaValida = recurso.capa && recurso.capa.trim() !== '';
     const capaSrc = temCapaValida ? recurso.capa : 'img/placeholder.jpg'; 
-    const altText = recurso.titulo || 'Capa do recurso';
-    capaHtml = `
+    const altText = recurso.titulo ? `Capa de ${recurso.titulo}` : 'Capa do recurso';
+    
+    const capaHtml = `
         <div class="recurso-capa">
             <img src="${capaSrc}" alt="${altText}" 
                  onerror="this.onerror=null; this.src='img/placeholder.jpg'; this.alt='Imagem indisponível';">
@@ -212,11 +224,10 @@ function criarItemRecurso(recurso, categoria, index) {
         infoHtml += `<p class="recurso-autor">Por: ${recurso.autor}</p>`;
     }
     
-    // A descrição será sempre incluída no DOM para o hover, CSS controlará visibilidade
     if (recurso.descricao) {
         infoHtml += `<p class="recurso-descricao">${recurso.descricao}</p>`;
     }
-    infoHtml += '</div>'; // Fecha recurso-info
+    infoHtml += '</div>';
     
     cardDiv.innerHTML = capaHtml + infoHtml;
     li.appendChild(cardDiv);
@@ -224,13 +235,9 @@ function criarItemRecurso(recurso, categoria, index) {
 }
 
 function exibirErroRecursos(err) {
-    const categoriasContainer = document.querySelector('.categorias');
+    const categoriasContainer = document.querySelector('#recursos-anchor .categorias-grid') || document.querySelector('.categorias-grid');
     if (categoriasContainer) {
-        categoriasContainer.innerHTML = '<p>Erro ao carregar os recursos. Tente novamente mais tarde.</p>';
+        categoriasContainer.innerHTML = '<p class="error-message">Erro ao carregar os recursos. Tente novamente mais tarde.</p>';
     }
     console.error('Erro detalhado ao carregar recursos:', err);
 }
-
-// O restante do código que parecia ser do 'categorias.js' foi removido para evitar conflitos.
-// Se a funcionalidade de modais de adição for necessária, ela deve ser gerenciada por um script separado
-// ou integrada cuidadosamente aqui, garantindo que não haja redeclarações ou conflitos de listeners.

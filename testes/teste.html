@@ -3,18 +3,26 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Questionário</title> <!-- Título genérico inicial -->
-    <link rel="stylesheet" href="../css/style.css"> <!-- CSS Principal -->
+    <title>Desafio Cognita - Questionário Interativo</title>
+
+    <!-- Fontes -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Montserrat:wght@400;700;800&display=swap" rel="stylesheet">
+
+    <!-- CSS Principal e Testes -->
+    <link rel="stylesheet" href="../css/style.css">
     <link rel="stylesheet" href="../css/testes_style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
-    <script src="../js/teste_script.js" defer></script>
+    
     <!-- Favicon -->
     <link rel="icon" href="../favicon.ico" type="image/x-icon">
+    <script src="../js/teste_script.js" defer></script>
 </head>
-<body>
+<body class="quiz-page-active">
     <div class="quiz-page-wrapper">
         <header class="quiz-header">
-            <h1 id="quiz-title-h1">Questionário</h1> <!-- Título genérico inicial com ID -->
+            <h1 id="quiz-title-h1">Questionário Cognita</h1>
             <a href="../index.html" class="back-to-home-btn"><i class="fas fa-arrow-left"></i> Voltar à Seleção</a>
         </header>
 
@@ -25,11 +33,7 @@
                 <button id="level-medium-btn" class="level-btn" data-questions="50">Intermediário (50 Questões)</button>
                 <button id="level-hard-btn" class="level-btn" data-questions="100">Avançado (100 Questões)</button>
             </div>
-        </section>        <!-- <div id="loader" class="loader-container" aria-live="polite">
-            <div class="loader" role="status">
-                <span class="sr-only">Carregando...</span>
-            </div>
-        </div> -->
+        </section>
 
         <main id="quiz-content" class="hidden">
             <div class="progress-container-quiz">
@@ -39,13 +43,14 @@
             <div class="question-item" role="form" aria-labelledby="question-text-id">
                 <p class="question-text" id="question-text-id" role="heading" aria-level="2">Carregando pergunta...</p>
                 <div class="options-container" id="options-container-id" role="radiogroup" aria-labelledby="question-text-id">
-                    <!-- Opções aqui -->
+                    <!-- Opções dinâmicas -->
                 </div>
                 <button class="next-question-btn" id="next-btn-id" aria-label="Próxima questão" disabled>
                     Próxima Questão <i class="fas fa-arrow-right" aria-hidden="true"></i>
                 </button>
             </div>
         </main>
+        
         <section id="results-area" class="hidden">
             <h2>Resultados Finais</h2>
             <p id="score-text"></p>
@@ -56,13 +61,12 @@
                 <button id="review-answers-btn">Revisar Respostas</button> 
             </div>
         </section>
+        
         <section id="review-section" class="hidden">
-             <h3>Revisão das Respostas</h3>
+            <h3>Revisão das Respostas</h3>
             <div id="review-content"></div>
             <button id="back-to-results-btn-review" class="back-to-results-btn-review">Voltar para Resultados</button>
         </section>
     </div>
-
-    <!-- <script src="../js/questoes_sociais.js"></script> Removido pois os dados virão do JSON -->
 </body>
 </html>
