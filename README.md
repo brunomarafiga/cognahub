@@ -2,44 +2,36 @@
 
 **Conecte-se ao conhecimento. Desafie sua mente.**
 
-Cognita Hub é uma plataforma web interativa de aprendizado que reúne recursos educacionais curados e questionários desafiadores em diversas áreas do conhecimento. O projeto oferece uma experiência de estudo completa, combinando conteúdo selecionado com autoavaliação gamificada.
+Cognita Hub é uma plataforma web interativa de aprendizado que reúne recursos educacionais curados e questionários desafiadores em diversas áreas do conhecimento. O projeto foi refatorado para utilizar uma arquitetura moderna e reativa, oferecendo uma experiência de estudo rápida e fluida.
 
 ---
 
 ## 📚 Sobre o Projeto
 
-Este projeto foi desenvolvido como parte da disciplina de **Gestão de Projetos** do curso de **Gestão da Informação** da **Universidade Federal do Paraná (UFPR)**.
+Este projeto foi desenvolvido originalmente como parte da disciplina de **Gestão de Projetos** do curso de **Gestão da Informação** da **Universidade Federal do Paraná (UFPR)**. 
 
-O Cognita Hub nasceu da proposta de aplicar na prática os conceitos de planejamento, execução e controle de projetos estudados em sala de aula, resultando em uma plataforma funcional voltada ao aprendizado e à autoavaliação.
+O Cognita Hub nasceu da proposta de aplicar na prática os conceitos de planejamento, execução e controle de projetos, resultando em uma plataforma funcional voltada ao aprendizado e à autoavaliação. Recentemente, a plataforma passou por uma grande atualização arquitetural, migrando para **Vue.js + Nuxt 3**.
 
 ---
 
 ## ✨ Funcionalidades
 
-- **📖 Fontes de Conhecimento** — Biblioteca curada de recursos organizados por categoria:
-  - **Biblioteca Cognita** — Livros recomendados
-  - **Audioteca Cognita** — Podcasts selecionados
-  - **Videoteca Cognita** — Canais do YouTube relevantes
-  - **Observatório Cognita** — Sites de notícias e artigos
-
-- **🎯 Desafios Cognita** — Questionários interativos em três áreas temáticas:
-  - **Ciências Sociais** — Antropologia, Sociologia, Ciência Política e mais
-  - **Gestão de Dados** — Coleta, processamento, análise e governança de dados
-  - **Gerenciamento de Projetos** — Metodologias ágeis, tradicionais e melhores práticas
-
-- **📊 Feedback Construtivo** — Acompanhamento de progresso e identificação de oportunidades de crescimento
-- **📱 Design Responsivo** — Interface adaptável a diferentes dispositivos
+- **📖 Fontes de Conhecimento** — Biblioteca curada de recursos organizados por categoria.
+- **🎯 Desafios Cognita** — Questionários interativos em áreas como Ciências Sociais, Gestão de Dados e Projetos.
+- **📊 Feedback Construtivo** — Acompanhamento de progresso.
+- **📱 Design Responsivo e Premium** — Interface totalmente adaptável e polida utilizando Nuxt UI e Tailwind CSS.
 
 ---
 
 ## 🛠️ Tecnologias Utilizadas
 
+A plataforma foi migrada de HTML estático para um ecossistema moderno focado em performance e SEO:
+
 | Tecnologia | Descrição |
 |:--|:--|
-| **HTML5** | Estrutura semântica da aplicação |
-| **CSS3** | Estilização e layout responsivo |
-| **JavaScript** | Lógica de interação, quizzes e carregamento dinâmico |
-| **JSON** | Armazenamento dos dados dos questionários e recursos |
+| **Vue.js 3** | Framework reativo e componentizado |
+| **Nuxt 3** | Meta-framework para Server-Side Rendering e SEO avançado |
+| **Nuxt UI & Tailwind CSS** | Componentes de interface polidos e estilização utilitária |
 | **Google Fonts** | Tipografia (Poppins, Montserrat) |
 | **Font Awesome** | Biblioteca de ícones |
 
@@ -49,29 +41,17 @@ O Cognita Hub nasceu da proposta de aplicar na prática os conceitos de planejam
 
 ```
 cognahub/
-├── index.html              # Página principal
-├── css/
-│   ├── style.css           # Estilos da página principal
-│   └── testes_style.css    # Estilos das páginas de questionários
-├── js/
-│   ├── script.js           # Lógica da página principal
-│   ├── teste_script.js     # Lógica dos questionários
-│   └── modais.js           # Gerenciamento de modais
-├── json/
-│   ├── categorias.json     # Dados dos recursos educacionais
-│   ├── teste_sociais.json  # Questões de Ciências Sociais
-│   ├── teste_dados.json    # Questões de Gestão de Dados
-│   └── teste_projetos.json # Questões de Gerenciamento de Projetos
-├── testes/
-│   ├── teste.html          # Página do questionário
-│   └── resultado.html      # Página de resultados
-├── img/                    # Imagens e ícones dos quizzes
+├── app.vue                 # Componente raiz da aplicação (substitui o index.html)
+├── nuxt.config.ts          # Configurações do Nuxt e módulos (Nuxt UI)
+├── package.json            # Dependências do ecossistema Node/Vue
+├── public/                 # (Anterior) Ativos estáticos, imagens e jsons
+├── css/                    # Estilos complementares portados da versão clássica
 └── README.md
 ```
 
 ---
 
-## 🚀 Como Executar
+## 🚀 Como Executar Localmente
 
 1. **Clone o repositório:**
    ```bash
@@ -83,11 +63,17 @@ cognahub/
    cd cognahub
    ```
 
-3. **Abra o `index.html` no navegador:**
-   - Basta abrir o arquivo diretamente, ou
-   - Utilize uma extensão como **Live Server** no VS Code para uma experiência com hot-reload.
+3. **Instale as dependências:**
+   ```bash
+   npm install
+   ```
 
-> **Nota:** Não é necessário instalar dependências. O projeto utiliza apenas HTML, CSS e JavaScript puros com CDNs para fontes e ícones.
+4. **Inicie o servidor de desenvolvimento:**
+   ```bash
+   npm run dev
+   ```
+   
+> **Nota:** O servidor inciará localmente e o site estará disponível em `http://localhost:3000`.
 
 ---
 
