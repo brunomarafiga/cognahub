@@ -1,0 +1,10 @@
+# Diretórios do sistema Multi-Agente
+.agents/
+.agents
+
+# Pastas padrão do Nuxt / Node
+node_modules/
+.nuxt/
+.output/
+dist/
+.env

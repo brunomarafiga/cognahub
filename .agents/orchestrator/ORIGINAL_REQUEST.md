@@ -1,34 +1,36 @@
 # Original User Request
 
-## Initial Request — 2026-07-30T16:16:01Z
+## Audit Request — 2026-07-30T16:40:23Z
 
-# Teamwork Project Prompt — Draft
+# Teamwork Project Prompt — Cognita Hub Codebase Audit
 
 > Status: Launched
-> Goal: Craft prompt → get user approval → delegate to teamwork_preview
+> Goal: Comprehensive Audit (Accessibility, Cognitive Load & UX, Vue 3 / Nuxt 3 Code Integrity) → Markdown Report
 
-O projeto consiste em finalizar a página web existente no repositório, corrigindo o alinhamento das colunas, adicionando imagens de placeholder e aplicando um polimento completo. O site deve ficar responsivo e com um visual moderno.
+O projeto consiste em realizar uma auditoria completa no site (Cognita Hub) focada em avaliar a acessibilidade (WCAG), a carga cognitiva para os usuários e a integridade de código (boas práticas do ecossistema Vue/Nuxt). 
 
 Working directory: c:\github\cognahub
-Integrity mode: demo
+Integrity mode: read-only audit
 
 ## Requirements
 
-### R1. Alinhamento e Layout Estruturado
-Corrigir as colunas desalinhadas utilizando técnicas modernas de CSS, como Flexbox ou CSS Grid, para garantir um layout consistente, simétrico e bem organizado.
+### R1. Avaliação de Acessibilidade (a11y)
+Auditar o código gerado em busca de barreiras de acessibilidade, checando contraste de cores, suporte a leitores de tela (ARIA), atributos alt e navegação por teclado, apontando violações de diretrizes (como WCAG 2.1).
 
-### R2. Inserção de Imagens de Placeholder
-Preencher os espaços destinados a mídia (atualmente sem imagem) com imagens de placeholder (por exemplo, via.placeholder.com ou imagens locais disponíveis) em tamanhos apropriados para o contexto da página.
+### R2. Avaliação de Carga Cognitiva e UX
+Analisar o layout, a densidade de texto, o agrupamento de elementos e a clareza visual para determinar se a página atual sobrecarrega a atenção do usuário ou se apresenta uma experiência fluida.
 
-### R3. Responsividade e Modernização Visual
-O design deve ser aprimorado para refletir uma estética moderna e premium. Além disso, a página deve ser totalmente responsiva, adaptando o conteúdo corretamente para dispositivos móveis, tablets e telas grandes.
+### R3. Integridade do Código Vue/Nuxt
+Avaliar as boas práticas técnicas da recente migração. O código segue as convenções do Nuxt 3? O uso do Vue (composition API, estrutura de templates) está eficiente? Há pontos de atenção de performance (especialmente avaliando `app.vue` e estrutura geral)?
+
+### R4. Geração de Relatório
+A equipe deve consolidar todas as descobertas em um único documento Markdown detalhado (`c:\github\cognahub\auditoria_cognahub.md`), sem realizar alterações diretas no código-fonte da aplicação.
 
 ## Acceptance Criteria
 
-### Estrutura e Estilização
-- [ ] O código HTML/CSS foi atualizado para usar `display: flex` ou `display: grid` nas seções de colunas, resolvendo os problemas de alinhamento.
-- [ ] O arquivo CSS contém `media queries` (ex: `@media (max-width: 768px)`) que adaptam o layout corretamente para telas pequenas (ex: mudando layout de colunas para linhas).
-
-### Elementos Visuais
-- [ ] O arquivo `index.html` contém tags `<img>` com `src` apontando para serviços de placeholder ou imagens locais existentes, preenchendo todos os blocos vazios.
-- [ ] A página pode ser verificada manualmente abrindo-a em um navegador (usando recursos locais sem dependências externas complexas).
+### Verificação do Relatório
+- [ ] Um arquivo `auditoria_cognahub.md` foi gerado na raiz do projeto (`c:\github\cognahub`).
+- [ ] O documento contém uma avaliação clara sobre Acessibilidade com pontos de melhoria acionáveis.
+- [ ] O documento discute a Carga Cognitiva da interface baseada na análise dos componentes.
+- [ ] O documento avalia criticamente a integridade do código Vue/Nuxt (como o estado do `app.vue`).
+- [ ] Nenhum arquivo do site original (`app.vue`, `package.json`, `index.html`, etc) foi modificado pelos agentes durante este processo (verificação de modo leitura/avaliação).
