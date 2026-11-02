@@ -94,3 +94,12 @@ Estudante de Gestão da Informação — Universidade Federal do Paraná (UFPR)
 ## 📄 Licença
 
 © 2026 Cognita Hub. Todos os direitos reservados.
+
+## Contexto do projeto
+
+- **Categoria:** Produto educacional
+- **Temas e tecnologias:** Vue.js, Nuxt 3, Tailwind CSS, quizzes e experiência de aprendizagem
+- **Visibilidade:** Público
+- **Repositório:** <https://github.com/brunomarafiga/cognahub>
+
+Este README apresenta o objetivo, a organização e as instruções de uso do projeto. Consulte os arquivos e diretórios do repositório para detalhes de implementação e materiais complementares.
